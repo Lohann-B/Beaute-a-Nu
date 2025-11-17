@@ -1,2 +1,5 @@
 # Beaute-a-Nu
-Projet design web
+Membres du groupe :
+Balbas Lohann
+Chevremont Lilian
+Joset Alexandre
