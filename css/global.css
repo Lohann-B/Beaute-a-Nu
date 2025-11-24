@@ -23,6 +23,10 @@ header{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-#stars:hover{
- 
+#messageBox{
+ border-radius: 16px;
+ padding-right: 10%;
+ padding-bottom: 50%;
+ justify-content: space-between;
+  margin: 5% 20% 0% 20%;
 }
