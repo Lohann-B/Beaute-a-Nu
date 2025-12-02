@@ -1,5 +1,5 @@
 body{
-  font-family: "Bacasime Antique", serif;
+  font-family: "Bacasime Antique", regular;
   font-weight: 400;
   font-style: normal;
 }
@@ -24,9 +24,55 @@ header{
   -webkit-text-fill-color: transparent;
 }
 #messageBox{
- border-radius: 16px;
- padding-right: 10%;
- padding-bottom: 50%;
- justify-content: space-between;
+  background-color: white;
+  border-radius: 16px;
+  border-width: 5px;
+  border-color: #E5E5E5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   margin: 5% 20% 0% 20%;
 }
+
+input[type="radio"]{
+  visibility: hidden;
+  width: 0%;
+}
+
+textarea{
+  color: #838383;
+  border-radius: 16px;
+  border-color: white;
+  padding-right: 50%;
+  padding-bottom: 10%;
+}
+
+#scoreBox{
+  display: flex;
+  justify-content: left;
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+h1{
+  text-align: center;
+}
+
+
+
+.rating {
+  display: flex;
+  flex-direction:row-reverse; /* Inverse l'ordre visuel */
+  font-size: 1rem;
+  cursor: pointer;
+  color: gray;
+  transition: color 0.3s;
+}
+
+.rating:hover,
+.rating:hover ~ label {
+  color: gold;
+  flex-direction:row;
+}
+
