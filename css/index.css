@@ -1,32 +1,72 @@
 h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
 }
 
-#logo{
-    color: rgb(255, 255, 255);
+#logo {
+    color: #fff;
 }
 
-#title{
-    display: flex;
-    color: white;
-}
-
-#imageDePresentation{
-width: auto;
-    margin-top: -1em;
-    margin-left: -1em;
+#title {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
-#image1{
-    height: 15%;
-    display: flex;
-    justify-content: left;
+#lien1, #lien2 {
+    font-size: 100%;
+    position: absolute;
+    color: white;
 }
 
-#image2{
-    height: 15%;
-    display: flex;
-    justify-content: right;
+#lien1 {
+    top:75cqmax;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#lien2 {
+    top:100cqmax;
+    top:100cqmin;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imageDePresentation {
+    display:block;
+    justify-content: center;
+    margin-top: -1em;
+    right: 0;
+    color: #fff;
+}
+
+#image1, #image2 {
+    display: block;
+    width: 133%;
+    margin-left: -3em;
+}
+
+@media (min-width: 600px) {
+    #image1, #image2 {
+        width: 70%;
+        display: flex;
+        margin-left: 0em;
+    }
+
+    #imageDePresentation {
+        display:flex;
+    }
+    #lien1 {
+        top:75cqmax;
+        left: 25%;
+        transform: translate(-50%, -50%);
+}
+    #lien2 {
+        top:75cqmax;
+        left: 75%;
+        transform: translate(-50%, -50%);
+}
 }
