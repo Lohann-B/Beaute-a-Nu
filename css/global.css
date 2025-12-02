@@ -3,6 +3,7 @@ body{
   font-weight: 400;
   font-style: normal;
 }
+
 header{
   display: flex;
   justify-content: space-between;
@@ -16,6 +17,7 @@ header{
   top: 0;
   left: 0;
 }  
+
 #BNUlogo{
   margin-right: 2%;
   background: -webkit-linear-gradient(#fff200, #ffc300);
@@ -23,6 +25,7 @@ header{
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 #messageBox{
  border-radius: 16px;
  padding-right: 10%;
