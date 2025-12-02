@@ -33,7 +33,7 @@ header{
   border-color: #E5E5E5;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content:left;
   margin: 5% 20% 0% 20%;
 }
 
@@ -62,6 +62,11 @@ h1{
   text-align: center;
 }
 
+h3{
+  font-size: 50px;
+  text-align: left;
+  max-width: 20%;
+}
 
 
 .rating {
@@ -79,3 +84,6 @@ h1{
   flex-direction:row;
 }
 
+ul li{
+  list-style-type: none;
+}

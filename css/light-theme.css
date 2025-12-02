@@ -2,3 +2,23 @@ body{
     background: linear-gradient(to right,#f5f5cd, #cfcfa1);
     color: #000000;
 }
+
+footer{
+    font-family: "inter", medium;
+    background-color: #ffffff;
+    color: #000000;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-bottom: -1em;
+    padding: 2em;
+    position: flex;
+    left: 0%;
+}
+
+#footer{
+    padding: 0;
+    line-height: 145%;
+}
+li a{
+    color: #00000055;
+}
