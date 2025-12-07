@@ -14,7 +14,7 @@ h1{
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 2em;
     margin-left: 1em
 }
 
@@ -40,6 +40,20 @@ h2{
     padding: 1em;
 }
 
+.titre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.548);
+
+    margin-bottom: 1em;
+}
+
 /* --- BOLD-CLUB SECTION --- */
 .bold-club {
     display: flex;
@@ -50,7 +64,7 @@ h2{
     background-color: rgba(0, 0, 0, 0.507);
     padding: 1em;
 
-    overflow-x: auto;
+    overflow-x:scroll;
     scroll-behavior: smooth; 
     scrollbar-width: auto;
     scrollbar-color: white rgba(0, 0, 0, 0);
@@ -69,21 +83,22 @@ h2{
     border: solid;
     border-color: rgba(255, 255, 255, 0.548);
 
-    width: 34vh;
+    width: 40vh;
 }
 
 .bold-club .flex-vert figure{
     margin: 0;
-
-    background-color: rgb(0, 0, 0);
-
     padding: 1em;
+
+    background-color: rgba(0, 0, 0, 0.623);
+    
     overflow: hidden;
 }
 
 .bold-club .flex-vert img{
     transition: transform .9s;
-    width: 100%;
+
+    border-radius: 1em;
 }
 
 .bold-club .flex-vert img:hover{
@@ -93,6 +108,18 @@ h2{
 .bold-club .flex-vert section{
     background-color: inherit;
     padding: 1em;
+}
+
+.bold-club h2{
+    padding:0.1em;
+    margin:0;
+
+    writing-mode: sideways-lr;
+    text-transform: uppercase;
+
+    font-size:10em;
+
+    color:rgba(255, 255, 255, 0.479);
 }
 /* --- FIN BOLD CLUB --- */
 
