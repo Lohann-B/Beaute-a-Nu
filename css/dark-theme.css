@@ -6,3 +6,72 @@ body{
 #logo{
     background: white;
 }
+
+body{
+    background: linear-gradient(to right,#3c3c3c, #282828);
+    color: #ffffff;
+}
+
+footer{
+    font-family: "inter", medium;
+    background-color: #282828;
+    color: #ffffff;
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+    margin-bottom: -1em;
+    padding: 2em;
+    position: flex;
+    left: 0;
+}
+
+#footer{
+    padding: 0;
+    line-height: 145%;
+}
+li a{
+    color: #00000055;
+}
+
+#messageBox{
+  border-style:solid;
+  background-color: 282828;
+  border-radius: 16px;
+  border-width: 5px;
+  border-color: #e5e5e53e;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  margin: 20% 50% 20% 0%;
+}
+
+textarea{
+  color: #838383;
+  border-radius: 16px;
+  border-color: rgb(0, 0, 0);
+  padding-right: 50%;
+  padding-bottom: 10%;
+}
+
+#email-feed-back{
+  color: #ffffffd1;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #282828;
+  padding-right: 50%;
+  margin-bottom: 10px;
+}
+
+
+#submitButton{
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #00000000;
+    border-radius: 16px;
+    border-color: #ffffff3f;
+    width: 25%;
+}
+
+li a{
+    color: #ffffffd5;
+    font-size: 160%;
+}

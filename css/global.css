@@ -31,81 +31,37 @@ header{
   -webkit-text-fill-color: transparent;
 }
 
-#messageBox{
-  border-style:solid;
-  background-color: white;
-  border-radius: 16px;
-  border-width: 5px;
-  border-color: #E5E5E5;
-  display: flex;
-  flex-direction: column;
-  justify-content:left;
-  margin: 20% 50% 20% 0%;
-}
-
 input[type="radio"]{
   visibility: hidden;
   width: 0%;
 }
 
-textarea{
-  color: #838383;
-  border-radius: 16px;
-  border-color: white;
-  padding-right: 50%;
-  padding-bottom: 10%;
-}
-
-#email-feed-back{
-  color: #000000d1;
-  border-radius: 16px;
-  border-style: solid;
-  border-color: white;
-  padding-right: 50%;
-}
-
 #scoreBox{
   display: flex;
   justify-content: left;
+  flex-direction:row-reverse;
   margin-left: 0%;
   margin-top: 2%;
   margin-bottom: 2%;
+  font-size: 1rem;
 }
 
 h1{
   text-align: center;
 }
 
-h3{
-  font-size: 50px;
-  text-align: left;
-  max-width: 20%;
-}
-
-
 .rating {
-  display: flex;
-  flex-direction:row-reverse; /* Inverse l'ordre visuel */
-  font-size: 1rem;
   cursor: pointer;
   color: gray;
-  transition: color 0.3s;
+  transition: color 0.7s;
 }
 
 .rating:hover,
 .rating:hover ~ label {
   color: gold;
-  flex-direction:row;
 }
 
 ul li{
   list-style-type: none;
 }
 
-#submitButton{
-    color: #000000;
-    background-color: #00000020;
-    border-radius: 16px;
-    border-color: #0000003f;
-    width: 25%;
-}

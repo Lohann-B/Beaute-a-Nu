@@ -1,4 +1,13 @@
 body{
+    background-color: #404040;
+    color: #000000;
+}
+
+#logo{
+    background: white;
+}
+
+body{
     background: linear-gradient(to right,#f5f5cd, #cfcfa1);
     color: #000000;
 }
@@ -19,6 +28,48 @@ footer{
     padding: 0;
     line-height: 145%;
 }
+
+
+#messageBox{
+  border-style:solid;
+  background-color: 282828;
+  border-radius: 16px;
+  border-width: 5px;
+  border-color: #e5e5e53e;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  margin: 20% 50% 20% 0%;
+}
+
+textarea{
+  color: #838383;
+  border-radius: 16px;
+  border-color: white;
+  padding-right: 50%;
+  padding-bottom: 10%;
+}
+
+#email-feed-back{
+  color: #000000d1;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: white;
+  padding-right: 50%;
+  margin-bottom: 10px;
+}
+
+
+#submitButton{
+    margin-top: 10px;
+    color: #000000;
+    background-color: #00000020;
+    border-radius: 16px;
+    border-color: #0000003f;
+    width: 30%;
+}
+
 li a{
-    color: #00000055;
+    color: #000000d5;
+    font-size: 160%;
 }
