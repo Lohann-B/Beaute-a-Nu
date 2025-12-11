@@ -1,0 +1,130 @@
+body {
+    padding: 0;
+    margin: 1vh 0;
+}
+
+/* --- TITRE --- */
+h1{
+    margin: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size:3.5rem;
+    text-shadow: 3px 3px 8px #00000054;
+}
+
+h2{
+    font-size: 2em;
+    margin-left: 1em
+}
+
+
+/* --- GENERAL FLEX-BOX --- */
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    background-color: rgb(0, 0, 0);
+
+    margin-bottom: 1em;
+}
+
+.flex-horiz{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 5em;
+
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.548);
+
+    margin-bottom: 1em;
+}
+
+/* --- BOLD-CLUB SECTION --- */
+.bold-club {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 5em;
+
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 1em;
+
+    overflow-x:scroll;
+    scroll-behavior: smooth; 
+    scrollbar-width: auto;
+    scrollbar-color: white rgba(0, 0, 0, 0);
+}
+
+.bold-club::-webkit-scrollbar {
+    height: 1em;
+}
+
+.bold-club .flex-vert{
+    row-gap: none;
+
+    background-color: rgb(39, 39, 39);
+    color: white;
+
+    border: solid;
+    border-color: rgba(255, 255, 255, 0.548);
+
+    width: 40vh;
+}
+
+.bold-club .flex-vert figure{
+    margin: 0;
+    padding: 1em;
+
+    background-color: rgba(0, 0, 0, 0.623);
+    
+    overflow: hidden;
+}
+
+.bold-club .flex-vert img{
+    transition: transform .9s;
+
+    border-radius: 1em;
+}
+
+.bold-club .flex-vert img:hover{
+    transform: scale(1.2);
+}
+
+.bold-club .flex-vert section{
+    background-color: inherit;
+    padding: 1em;
+}
+
+.bold-club h2{
+    padding:0.1em;
+    margin:0;
+
+    writing-mode: sideways-lr;
+    text-transform: uppercase;
+
+    font-size:10em;
+
+    color:rgba(255, 255, 255, 0.479);
+}
+/* --- FIN BOLD CLUB --- */
+
+/* --- FOOTER --- */
+footer{
+    margin-top: 2em;
+}
+
