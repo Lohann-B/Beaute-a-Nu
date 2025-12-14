@@ -1,5 +1,4 @@
 body{
-<<<<<<< HEAD
     background-color: #404040;
     color: #000000;
 }
@@ -10,9 +9,6 @@ body{
 
 body{
     background: linear-gradient(to right,#f5f5cd, #cfcfa1);
-=======
-    background: linear-gradient(to right,#f5f5cd, #b8b884);
->>>>>>> origin/main
     color: #000000;
 }
 
