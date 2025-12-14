@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* --- GENERAL CLASS --- */
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(185, 165, 101, 0.384);
+    border: 2px solid;
+    border-color: rgba(0, 0, 0, 0.205);
+
+    margin-bottom: 1em;
+    padding: 5vh 0;
+
+    width: 60vh;
+}
+
+.flex-horiz{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 0vh;
+
+    background-color: inherit;
+
+    padding: 0;
+    margin: 3vh 0;
+}
+
+/* --- SECTION TITRE --- */
+.titre{
+    margin: 0;
+    padding: 20vh 0;
+    position: relative;
+}
+
+.titre::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: url("../img/a-propos-de-nous/groupe_de_chauve.webp");
+    background-size: cover;
+    background-position: center 50%;
+
+    filter: brightness(0.6) blur(1.5px);
+
+
+}
+
+.titre h1{
+    color: rgba(255, 255, 255, 0.938);
+    text-shadow: 3px 3px 8px #00000077;
+
+    font-size: 7vh;
+
+    text-align: center;
+}
+
+/* --- SECTION CONTENU --- */
+.image_chauve{
+    width: 20vh;
+    height: 20vh;
+    object-fit: cover;
+    object-position: top;
+
+    background-color: rgba(255, 255, 255, 0.116);
+    box-shadow: 3px 3px 8px #00000054;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+/* --- ADAPTATION TELEPHONE --- */
+@media screen and (max-width: 640px){
+
+/* --- SECTION TITRE --- */
+.titre{
+    padding: 30vh 0;
+    position: relative;
+}
+
+.titre::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: url("../img/a-propos-de-nous/groupe_de_chauve.webp");
+    background-position: 69% 50%;
+
+    filter: brightness(0.5) blur(1px);
+}
+
+.titre h1{
+    font-size: 5vh;
+    padding: 0 1vh;
+}
+
+/* --- SECTION CONTENU --- */
+.flex-horiz{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    border-bottom: 2px solid;
+    border-color: rgba(0, 0, 0, 0.205);
+}
+
+.flex-vert{
+    margin-bottom: 0;
+    padding: 5vh 0;
+
+    width:99%;
+
+    border-bottom: none;
+}
+
+}
