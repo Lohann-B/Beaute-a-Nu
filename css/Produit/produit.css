@@ -85,8 +85,6 @@ h2{
 
     border: solid;
     border-color: rgba(255, 255, 255, 0.548);
-
-    width: 40vh;
 }
 
 .bold-club .flex-vert figure{
@@ -149,15 +147,11 @@ h2{
 }
 
 /* --- BOLD CLUB --- */
-.bold-club .flex-vert{
-    width: 20vh;
-}
-
 .bold-club h2{
-    padding:0.1em;
+    padding:0;
     margin:0;
 
-    font-size:1vh;
+    font-size:10vh;
 }
 
 }
