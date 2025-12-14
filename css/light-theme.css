@@ -1,18 +1,9 @@
-body{
-<<<<<<< HEAD
-    background-color: #404040;
-    color: #000000;
-}
-
 #logo{
     background: white;
 }
 
 body{
-    background: linear-gradient(to right,#f5f5cd, #cfcfa1);
-=======
-    background: linear-gradient(to right,#f5f5cd, #b8b884);
->>>>>>> origin/main
+    background: linear-gradient(to right,#b8b884,#f5f5cda1);
     color: #000000;
 }
 
@@ -33,6 +24,12 @@ footer{
     line-height: 145%;
 }
 
+#contraste{
+    background-color: #ffffff00;
+    font-size: larger;
+    border-width: 0px;
+    color: white;
+}
 
 #messageBox{
   border-style:solid;
