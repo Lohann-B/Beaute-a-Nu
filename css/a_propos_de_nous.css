@@ -55,7 +55,7 @@ body{
 }
 
 .titre h1{
-    color: white;
+    color: rgba(255, 255, 255, 0.938);
     text-shadow: 3px 3px 8px #00000077;
 
     font-size: 7vh;
@@ -74,4 +74,51 @@ body{
     box-shadow: 3px 3px 8px #00000054;
     border-radius: 100%;
     overflow: hidden;
+}
+
+/* --- ADAPTATION TELEPHONE --- */
+@media screen and (max-width: 640px){
+
+/* --- SECTION TITRE --- */
+.titre{
+    padding: 30vh 0;
+    position: relative;
+}
+
+.titre::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: url("../img/a-propos-de-nous/groupe_de_chauve.webp");
+    background-position: 69% 50%;
+
+    filter: brightness(0.5) blur(1px);
+}
+
+.titre h1{
+    font-size: 5vh;
+    padding: 0 1vh;
+}
+
+/* --- SECTION CONTENU --- */
+.flex-horiz{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    border-bottom: 2px solid;
+    border-color: rgba(0, 0, 0, 0.205);
+}
+
+.flex-vert{
+    margin-bottom: 0;
+    padding: 5vh 0;
+
+    width:99%;
+
+    border-bottom: none;
+}
+
 }
