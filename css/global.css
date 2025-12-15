@@ -2,6 +2,7 @@ html, body{
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  -ms-overflow-style: none;
 }
 
 body{
@@ -65,3 +66,10 @@ ul li{
   list-style-type: none;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
