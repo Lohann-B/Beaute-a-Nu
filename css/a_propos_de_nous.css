@@ -3,6 +3,13 @@ body{
     padding: 0;
 }
 
+p{  
+    text-align: left;
+    line-height: 150%;
+
+    font-size: large;
+}
+
 /* --- GENERAL CLASS --- */
 .flex-vert{
     display: flex;
@@ -13,6 +20,7 @@ body{
     background-color: rgba(185, 165, 101, 0.384);
     border: 2px solid;
     border-color: rgba(0, 0, 0, 0.205);
+    box-shadow: 3px 3px 8px #00000054;
 
     margin-bottom: 1em;
     padding: 5vh 0;
@@ -37,6 +45,7 @@ body{
     margin: 0;
     padding: 20vh 0;
     position: relative;
+
 }
 
 .titre::before{
@@ -70,10 +79,18 @@ body{
     object-fit: cover;
     object-position: top;
 
-    background-color: rgba(255, 255, 255, 0.116);
+    background-color: rgba(255, 255, 255, 0.144);
     box-shadow: 3px 3px 8px #00000054;
     border-radius: 100%;
     overflow: hidden;
+}
+
+.flex-vert box{
+    background-color: #dfd7aaa1;
+    box-shadow: 3px 3px 8px #00000054;
+
+    padding: 4% 6%;
+    margin: 8%;
 }
 
 /* --- ADAPTATION TELEPHONE --- */
