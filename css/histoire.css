@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding : 3vh;
+
+    font-size: large;
+    line-height: 170%;
+}
+
+/* --- GENERAL CLASS --- */
+
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: inherit;
+
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.flex-horiz{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    column-gap: 0vh;
+
+    background-color: black;
+
+    padding: 0;
+    margin: 0;
+}
+
+/* --- SECTION TITRE --- */
+.titre h1{
+    margin: 0;
+    padding: 4vh;
+
+    font-size: 4vh;
+
+    background:linear-gradient( to top, black, rgb(51, 51, 51));
+    color: white;
+}
+
+.titre figure{
+    margin:0;
+    padding: 0;
+
+    
+
+    background-color: rgb(0, 0, 0);
+    filter: brightness(0.75);    
+}
+
+.titre #femme_chauve{
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+    object-position: center 30%;
+}
+
+/* --- SECTION CONTENU1 --- */
+.contenu1 p{
+    padding: 7% 20%;
+    
+    color: white;
+    text-align: center;
+    line-height: 200%;
+
+    
+}
+
+.contenu1 strong{
+    color: white;
+}
+
+.contenu1 .flex-horiz h2{
+    min-height: 40vh;
+    margin: 2vh;
+
+    text-align: left;
+    font-size: 6vh;
+    color: white;
+}
+
+.contenu1 .flex-horiz section{
+    width: 40%;
+    background: url("../img/histoire/homme_chauve_rouge.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
