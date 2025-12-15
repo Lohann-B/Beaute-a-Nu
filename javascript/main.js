@@ -29,3 +29,14 @@ function GotoHP(event){
   const elt = document.getElementById('hautDePage');
   elt.scrollIntoView({behavior: "smooth"});
 }
+
+
+function openCloseNavBar(event) {
+  event.preventDefault();
+  const elt = document.getElementById('navigationBar');
+  if (elt.style.width === "0%") {
+    elt.style.width = "100%";
+  } else {
+    elt.style.width = "0%";
+  }
+}
