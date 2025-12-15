@@ -7,9 +7,12 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/global.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/light-theme.css'>
-    <script src='../javascript/main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/a_propos_de_nous.css'>
+    <script src='main.js'></script>
 </head>
+
 <body>
+    <!--- HEADER --->
     <header>
                 <svg width="114" height="30" viewBox="0 0 114 30" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
                     <g id="logo">
@@ -21,51 +24,76 @@
                     <p id="BNUlogo" onclick="GotoHP(event)">BNU</p>
                 </figure>
     </header>
-    <img src="../img/groupe_de_chauve" alt="image de groupe chauve">
-    <p>
-        À propos de nous
-    </p>
-    <img src="../img/lohann_chauve.webp" alt="lohann mais chauve">
-    <p>
-        mettre du text
-    </p>
-     <img src="../img/lilian_chauve.webp" alt="lilian mais chauve">
-    <p>
-        mettre du text
-    </p>
-    <img src="../img/Alexandre_chauve.webp" alt="Alexandre mais chauve">
-</body>
-<footer>
-    <fieldset>
-        <legend>Donnez-nous votre avis!</legend>
-        <input type="radio" name="satisfaction" value="1">
-        <label for="value">1 étoile</label>
-        <input type="radio" name="satisfaction" value="2">
-        <label for="value">2 étoiles</label>
-        <input type="radio" name="satisfaction" value="3">
-        <label for="value">3 étoiles</label>
-        <input type="radio" name="satisfaction" value="4">
-        <label for="value">4 étoiles</label>
-        <input type="radio" name="satisfaction" value="5">
-        <label for="value">5 étoiles</label>
-        <textarea name="feed-back" id="feed-back"></textarea>
-        <button type="submit">Submit</button>
-    </fieldset>
-    <em>Learn more</em> 
-    <ul>
-        <li><a href="/index.html">Accueil</a></li>
-        <li><a href="/html/histoire.html">Be Proud</a></li>
-        <li><a href="/html/conseils.html">Conseils</a></li>
-        <li><a href="/html/produit.html">Produits</a></li>
-        <li><a href="/html/collaborateurs.html">Nos collaborateurs</a></li>
-        <li><a href="/html/photo.html">Photos</a></li>
-        <li><a href="/html/a-propos-de-nous.html">A propos de nous</a></li>
-    </ul>
-    <em>Support</em>
-    <ul>
-        <li><a href="/html/source.html">Legal</a></li>
-        <li><a href="">Contact</a></li>
-    </ul>
 
-</footer>
+    <!--- TITRE --->
+    <section class="titre">
+        <h1>
+        À propos de nous
+        </h1>
+    </section>
+
+    <!--- CONTENU--->
+    <flex-box class="flex-horiz">
+        <flex-box class="flex-vert">
+            <img src="../img/a-propos-de-nous/lohann_chauve.webp" alt="lohann mais chauve" class="image_chauve">
+            <p>
+                Un bel homme
+            </p>
+        
+        </flex-box>
+
+        <flex-box class="flex-vert">
+            <img src="../img/a-propos-de-nous/Alexandre_chauve.webp" alt="Alexandre mais chauve" class="image_chauve">
+        <p>
+            An handsome man
+        </p>
+        </flex-box>
+
+        <flex-box class="flex-vert">
+            <img src="../img/a-propos-de-nous/lilian_chauve.webp" alt="lilian mais chauve" class="image_chauve">
+            <p>
+                Unnn bel homme,<br>
+                ouhhh il répondait au nom de bel homme<br>
+                les gens du coin ne voulaient pas le cher-laaa<br>
+                il faisait trembler tous les villaaaaages<br>
+                les gens me disaient, méfies-toi d'cet homme-là<br>
+                oooh bel hommeuh
+            </p>
+        </flex-box>
+    </flex-box>
+    
+    <!--- FOOTER --->
+    <footer>
+        <fieldset>
+            <legend>Donnez-nous votre avis!</legend>
+            <input type="radio" name="satisfaction" value="1">
+            <label for="value">1 étoile</label>
+            <input type="radio" name="satisfaction" value="2">
+            <label for="value">2 étoiles</label>
+            <input type="radio" name="satisfaction" value="3">
+            <label for="value">3 étoiles</label>
+            <input type="radio" name="satisfaction" value="4">
+            <label for="value">4 étoiles</label>
+            <input type="radio" name="satisfaction" value="5">
+            <label for="value">5 étoiles</label>
+            <textarea name="feed-back" id="feed-back"></textarea>
+            <button type="submit">Submit</button>
+        </fieldset>
+        <em>Learn more</em> 
+        <ul>
+            <li><a href="/index.html">Accueil</a></li>
+            <li><a href="/html/histoire.html">Be Proud</a></li>
+            <li><a href="/html/conseils.html">Conseils</a></li>
+            <li><a href="/html/produit.html">Produits</a></li>
+            <li><a href="/html/collaborateurs.html">Nos collaborateurs</a></li>
+            <li><a href="/html/photo.html">Photos</a></li>
+            <li><a href="/html/a-propos-de-nous.html">A propos de nous</a></li>
+        </ul>
+        <em>Support</em>
+        <ul>
+            <li><a href="/html/source.html">Legal</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </footer>
+</body>
 </html>
