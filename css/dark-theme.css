@@ -19,17 +19,10 @@ footer{
     left: 0;
 }
 
-#footer{
-    padding: 0;
-    line-height: 145%;
+#contraste{
+    color: #ffd700;
 }
 
-#contraste{
-    background-color: #ffffff00;
-    font-size: larger;
-    border-width: 0px;
-    color: white;
-}
 
 li a{
     color: #00000055;
@@ -77,4 +70,8 @@ textarea{
 li a{
     color: #ffffffd5;
     font-size: 160%;
+}
+
+#githubLink{
+    background-image: url(../img/global/github-mark-white.svg);
 }

@@ -18,23 +18,14 @@ footer{
     position: flex;
     left: 0;
 }
-
-#footer{
-    padding: 0;
-    line-height: 145%;
-}
-
 #contraste{
-    background-color: #ffffff00;
-    font-size: larger;
-    border-width: 0px;
-    color: white;
+   color:#dcdcfb; 
 }
 
 #messageBox{
   border-style:solid;
   background-color: 282828;
-  border-radius: 16px;
+  border-radius: 20px;
   border-width: 5px;
   border-color: #e5e5e53e;
   display: flex;
@@ -73,4 +64,8 @@ textarea{
 li a{
     color: #000000d5;
     font-size: 160%;
+}
+
+#githubLink{
+    background-image: url(../img/global/github-mark.svg);
 }

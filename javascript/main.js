@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   btn.addEventListener('click', () => {
     theme.href = isDark ? 'css/light-theme.css' : 'css/dark-theme.css';
-    btn.textContent = isDark ? "◐" : "◑";
+    btn.textContent = isDark ? "☾" : "☀";
     isDark = !isDark;
   });
 });
@@ -23,3 +23,20 @@ document.addEventListener('click',() => {
     }
   }
 });
+
+function GotoHP(event){
+  event.preventDefault();
+  const elt = document.getElementById('hautDePage');
+  elt.scrollIntoView({behavior: "smooth"});
+}
+
+
+function openCloseNavBar(event) {
+  event.preventDefault();
+  const elt = document.getElementById('navigationBar');
+  if (elt.style.width === "0%") {
+    elt.style.width = "100%";
+  } else {
+    elt.style.width = "0%";
+  }
+}
