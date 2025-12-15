@@ -19,16 +19,14 @@ footer{
     left: 0;
 }
 
-#footer{
-    padding: 0;
-    line-height: 145%;
-}
-
 #contraste{
     background-color: #ffffff00;
     font-size: larger;
-    border-width: 0px;
-    color: white;
+    font-weight: bold;
+    padding-right: 20px;
+    border-style: hidden;
+    border-right-width: 20px;
+    color:lavender;
 }
 
 #messageBox{
@@ -73,4 +71,8 @@ textarea{
 li a{
     color: #000000d5;
     font-size: 160%;
+}
+
+#githubLink{
+    background-image: url(../img/global/github-mark.svg);
 }
