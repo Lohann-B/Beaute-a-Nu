@@ -1,12 +1,25 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-  const btn = document.getElementById('button');
+  const btn = document.getElementById('contraste');
   const theme = document.getElementById('theme');
-  if (!btn || !theme) return; 
+  if (!btn || !theme) return;
 
   let isDark = false;
+
   btn.addEventListener('click', () => {
     theme.href = isDark ? 'css/light-theme.css' : 'css/dark-theme.css';
+    btn.textContent = isDark ? "◐" : "◑";
     isDark = !isDark;
   });
+});
+
+document.addEventListener('click',() => {
+  const radios = document.getElementsByName('starsRating');
+
+  for (var i = 0; i < radios.length; i++) {
+    if (radios[i].checked) {
+      console.log(radios[i].value);
+      break;
+    }
+  }
 });
