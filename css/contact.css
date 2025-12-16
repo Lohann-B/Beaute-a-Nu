@@ -19,7 +19,8 @@ body{
 
 .flex-horiz{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     column-gap: 0;
 
@@ -43,6 +44,7 @@ body{
 .contenu{
     margin: 7vh;
 }
+
 /* Droite */
 .contenu .droite{
     box-shadow: 3px 3px 8px #00000054;
@@ -70,6 +72,8 @@ body{
     width: 110%;
 
     filter: brightness(0.9);
+
+    border-radius: 2vh;
 }
 
 .calvitie_avancee{
@@ -79,4 +83,44 @@ body{
     width: 110%;
 
     filter: brightness(0.8);
+
+    border-radius: 2vh;
+}
+
+/* Gauche */
+.contenu .gauche{
+    margin: 2vh 0;
+    padding: 1vh 4vh;
+
+    box-shadow: 3px 3px 8px #00000054;
+    background-color: rgba(0, 0, 0, 0.062);
+
+    border-spacing: 2vh;
+    border-radius: 5vh 0;
+}
+
+.case1, .case2 {
+    padding: 1vh 3vh;
+    background-color: #f7f0ca;
+}
+
+.case1{
+    border-radius: 5vh 0;
+}
+
+.case2{
+    border-radius: 0 5vh;
+}
+
+/* --- ADAPTATION TELEPHONE --- */
+@media screen and (max-width: 640px){
+
+/* --- SECTION CONTENU --- */
+.flex-horiz{
+    flex-wrap: wrap-reverse;
+}
+
+/* Droite */
+.contenu .droite p{
+    font-size: 2vh;
 }
