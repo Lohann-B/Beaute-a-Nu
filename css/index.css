@@ -1,9 +1,14 @@
 h1{
     position: absolute;
-    top: 50%;
+    font-size: 6vw;
+    top: 125vw;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     color: white;
+}
+
+body{
+  margin-top: -1em;
 }
 
 h2{
@@ -14,39 +19,29 @@ h2{
     max-width: 20%;
 }
 
-#title {
-    top: 125vw;
-    font-size: 6vw;
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
 #lien1, #lien2 {
     font-size: 2vw;
     position: absolute;
     color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #lien1 {
     top:110vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #lien2 {
     top:240vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #imageDePresentation {
     display:block;
     width: 100%;
+    height: auto;
     justify-content: center;
-    margin-top: -1em;
     margin-left: auto;
-    color: #fff;
+    overflow-x: hidden;
 }
 
 #image1, #image2 {  
@@ -65,19 +60,17 @@ h2{
         display: flex;
         width: 50%;
     }
-    #title {
-    top: 25vw;
+    h1{
+        top: 50%;
     }
     #lien1 {
         position: absolute;
         top:60vw;
         left: 25%;
-        transform: translate(-50%, -50%);
     }
     #lien2 {
         position: absolute;
         top:60vw;
         left: 75%;
-        transform: translate(-50%, -50%);
     }
 }
