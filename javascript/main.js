@@ -31,12 +31,16 @@ function GotoHP(event){
 }
 
 
+
 function openCloseNavBar(event) {
-  event.preventDefault();
-  const elt = document.getElementById('navigationBar');
-  if (elt.style.width === "0%") {
-    elt.style.width = "100%";
+   event?.preventDefault?.();
+
+  const nav = document.getElementById('navigationBar');
+  const isHidden = nav.hasAttribute('hidden');
+
+  if (isHidden) {
+    nav.removeAttribute('hidden');
   } else {
-    elt.style.width = "0%";
+    nav.setAttribute('hidden', '');
   }
 }
