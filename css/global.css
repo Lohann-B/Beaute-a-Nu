@@ -115,6 +115,7 @@ ul li{
 }
 
 #navigationBar{
+  z-index: 2;
   display:absolute;
   position: fixed;
   overflow-y: hidden;
@@ -135,7 +136,6 @@ ul li{
   border: hidden;
   cursor: pointer;
   background: #ffffff00;
-  background-image: url(../img/global/logo-Black.svg);
   background-position-x: center;
   background-position-y: center;
   background-size: cover;

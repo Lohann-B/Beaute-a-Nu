@@ -22,7 +22,6 @@ footer{
     color: #ffd700;
 }
 
-
 li a{
     color: #00000055;
 }
@@ -77,4 +76,8 @@ li a{
 
 #navigationBar{
     background-color: #282828;
+}
+
+#NavBoutonMenu{
+    background-image: url(../img/global/logo.svg);
 }

@@ -72,3 +72,7 @@ li a{
 #navigationBar{
     background-color: white;
 }
+
+#NavBoutonMenu{
+    background-image: url(../img/global/logo-Black.svg);
+}
