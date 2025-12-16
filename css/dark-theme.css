@@ -12,7 +12,6 @@ footer{
     background-color: #282828;
     color: #ffffff;
     margin-left: -0.5em;
-    margin-right: -0.5em;
     margin-bottom: -1em;
     padding: 2em;
     position: flex;
@@ -74,4 +73,8 @@ li a{
 
 #githubLink{
     background-image: url(../img/global/github-mark-white.svg);
+}
+
+#navigationBar{
+    background-color: #282828;
 }

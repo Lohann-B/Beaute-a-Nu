@@ -1,8 +1,7 @@
 html, body{
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
-  -ms-overflow-style: none;
+  display: absolute;
 }
 
 body{
@@ -37,6 +36,7 @@ header{
 #footer{
     padding: 0;
     line-height: 145%;
+    overflow-x: hidden;
 }
 
 #BNUlogo{
@@ -115,11 +115,41 @@ ul li{
 }
 
 #navigationBar{
-  display: flex;
-  background-color: white;
-  line-height: 200%;
+  display:absolute;
+  position: fixed;
+  overflow-y: hidden;
+  line-height: 1.5cm;
   justify-content: left;
-  margin-right: 5%;
+  padding-bottom: 20%;
   width: 100%;
   height: 100%;
+  transform: linear 0.5s;
+  font-size: larger;
+  font-family: 'Inter', sans-serif;
+  transition: linear 0.7s;
+}
+
+#NavBoutonMenu{
+  margin-left: 10px;
+  margin-top: 25px;
+  border: hidden;
+  cursor: pointer;
+  background: #ffffff00;
+  background-image: url(../img/global/logo-Black.svg);
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  color: transparent;
+  display:block;
+  padding-right: 10em;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter_18pt-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }
