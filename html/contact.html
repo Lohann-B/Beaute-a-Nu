@@ -5,11 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Contact</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/global.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/light-theme.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/global.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/light-theme.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/contact.css'>
     <script src='../javascript/main.js'></script>
 </head>
+
 <body>
+    <!--- HEADER --->
     <header>
                 <svg width="114" height="30" viewBox="0 0 114 30" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
                     <g id="logo">
@@ -21,28 +24,65 @@
                     <p id="BNUlogo" onclick="GotoHP(event)">BNU</p>
                 </figure>
     </header>
-    <p>
-        /Beauté à Nu/
-    </p>
-    <img src="../img/chauve-dos.png" alt="chauve pas vraiment chauve">
-    <p>
-        Nos Contacts
-    </p>
-    <img src="../img/chauve-main.png" alt="chauve avec main">
-    <p>
-        Nous vous répondrons au plus vite !
-    </p>
-    <p>
-        notre email@email.com
-    </p>
-    <p>
-        tel: 06 07 08 09 10
-    </p>
-    <p>
-         @beuté_à_nu
-    </p>
-</body>
-<footer>
+
+    <!--- TITRE -->
+    <section class="titre">
+        <h1> Beauté à Nu </h1>
+    </section>
+
+    <!--- CONTENU --->
+    <section class="contenu">
+        <flex-box class="flex-horiz">
+            <flex-box class="flex-vert">
+
+                <p>
+                    Nous vous répondrons au plus vite !
+                </p>
+
+                <table class="gauche">
+                    <tr>
+                        <p>beautee.anu@gmail.com</p>
+                    </tr>
+
+                    <tr>
+                        <p>tel : 06 07 08 09 10</p>
+                    </tr>
+
+                    <tr>
+                        <p>@beuté_à_nu</p>
+                    </tr>
+
+                </table>
+                
+            </flex-box>
+
+            <table class="droite">
+                <tr>
+                    <th>
+                        <img src="../img/contact/chauve-dos.png" alt="chauve pas vraiment chauve" class="calvitie_avancee">
+                    </th>
+
+                    <th>
+
+                    </th>
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Nos<br> Contacts</p>
+                    </th>
+
+                    <th>
+                        <img src="../img/contact/chauve-main.png" alt="chauve avec main" class="chauve_main">
+                    </th>
+                </tr>
+            </table>
+
+        </flex-box>
+    </section>
+
+    <!--- FOOTER --->
+    <footer>
     <fieldset>
         <legend>Donnez-nous votre avis!</legend>
         <input type="radio" name="satisfaction" value="1">
@@ -74,6 +114,6 @@
         <li><a href="../html/contact.html">Contact</a></li>
     </ul>
 
-</footer>
-
+    </footer>
+</body>
 </html>
