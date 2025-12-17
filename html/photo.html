@@ -7,11 +7,12 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' id="theme" href='../css/light-theme.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/global.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/photo-tel-tab.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/photo-pc.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/photos.css'>
     <script src='../javascript/main.js'></script>
 </head>
+
 <body>
+    <!--- HEADER --->
     <header>
             <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
             <figure class="FooterFlexFigure">
@@ -19,6 +20,8 @@
                 <p title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</p>
             </figure>
     </header>
+
+    <!--- NAVIGATION --->
     <nav id="navigationBar" role="menu" hidden>
         <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
         <ul>
@@ -34,52 +37,58 @@
         </ul> 
     </nav>
     
-    <h1 class="titre">
-        HALL OF SHINE 
-    </h1>
-    <figure>
-        <img src="../img/photo/jeff_bezos.png" alt="jeff bezos">
-        <figcaption class="titre-gens">
-            JEFF BEZOS
-        </figcaption>
-        <figcaption>
-            comment associé crâne chauve, entreprise et réussite
-        </figcaption>
-    </figure>
-    <br>
-    <br>   
-    <figure>
-        <img src="../img/photo/the_rock.png" alt="the rock">
-        <figcaption class="titre-gens">
-            DWAYNE JONHSON
-        </figcaption>
-        <figcaption>
-            La preuve vivante que la calitie n'empêche pas d'être un acteur à succès et un talentueux catcheur
-        </figcaption>
-    </figure>
-    <br>
-    <br>
-    <figure>
-        <img src="../img/photo/vin_diesel.png" alt="vien diesel">
-        <figcaption class="titre-gens">
-            VIN DIESEL
-        </figcaption>
-        <figcaption>
-            Réalisateur et acteur, son charisme n'est pas du qu'à son jeu d'acteur, il es surtout dûà son crâne rasé.
-        </figcaption>
-    </figure>
-    <br>
-    <br>
-    </figure>
+    <!--- SECTION TITRE  --->
+    <section class="titre">
+        <h1>Hall of Shine</h1>
+    </section>
+    
+    <!--- SECTION CONTENU --->
+    <section class="contenu">
         <figure>
-        <img src="../img/photo/Bruce_willis.png" alt="bruce willis">
-        <figcaption class="titre-gens">
-            BRUCE WILLIS
-        </figcaption>
-        <figcaption>
-            La perte de cheveux vous fera perdre votre charme ? Bruce Willis le dément, certaines disent même qu'il est encore plus beau maintenant.
-        </figcaption>
-    </figure>
+            <img src="../img/photo/jeff_bezos.png" alt="jeff bezos">
+
+            <figcaption>
+                <figcaption class="nom">
+                    JEFF BEZOS
+                </figcaption>
+                Comment associer crâne chauve, entreprise et réussite !
+            </figcaption>
+        </figure>
+ 
+        <figure>
+            <img src="../img/photo/the_rock.png" alt="the rock">
+            
+            <figcaption>
+                <figcaption class="nom">
+                    DWAYNE JONHSON
+                </figcaption>
+                La preuve vivante que la calvitie n'empêche pas d'être un acteur à succès et un talentueux catcheur ...
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="../img/photo/vin_diesel.png" alt="vien diesel">
+            
+            <figcaption>
+                <figcaption class="nom">
+                    VIN DIESEL
+                </figcaption>
+                Réalisateur et acteur, son charisme n'est pas dû qu'à son jeu d'acteur, il provient surement de ce magnifique crâne rasé.
+            </figcaption>
+        </figure>
+
+        </figure>
+            <figure>
+            <img src="../img/photo/Bruce_willis.png" alt="bruce willis">
+            <figcaption>
+                <figcaption class="nom">
+                    BRUCE WILLIS
+                </figcaption>
+                La perte de cheveux vous fera perdre votre charme ? Bruce Willis le dément, certaines disent même qu'il est encore plus beau maintenant ...
+            </figcaption>
+        </figure>
+    </section>
+    
 
     <footer>
             <p>Quel est notre objectif :</p>
