@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
   const btn = document.getElementById('contraste');
   const theme = document.getElementById('theme');
