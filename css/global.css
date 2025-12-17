@@ -5,12 +5,13 @@ html, body{
 }
 
 body{
-  font-family: "Bacasime Antique", regular;
+  font-family: "Bacasime Antique", normal;
   font-weight: 400;
   font-style: normal;
 }
 
 header{
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -94,7 +95,7 @@ ul li{
 
 #BoutonMenu{
   margin-left: 10px;
-  font-size: 40%;
+  font-size: 50%;
   border: hidden;
   cursor: pointer;
   background: #ffffff00;
@@ -111,7 +112,7 @@ ul li{
 }
 
 #navigationBar{
-  z-index: 2;
+  z-index: 3;
   display:absolute;
   position: fixed;
   overflow-y: hidden;
@@ -137,7 +138,7 @@ ul li{
   background-position-y: center;
   background-size: cover;
   color: transparent;
-  display:block;
+  display: inline-flex;
   padding-right: 10em;
   padding-top: 1.2em;
   padding-bottom: 1.2em;
@@ -166,5 +167,11 @@ ul li{
     font-family: 'Inter';
     src: url('../fonts/Inter_18pt-SemiBold.ttf') format('truetype');
     font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bacasime Antique';
+    src: url('/fonts/BacasimeAntique-Regular.ttf') format('truetype');
+    font-weight:lighter;
     font-style: normal;
 }
