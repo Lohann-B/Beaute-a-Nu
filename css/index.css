@@ -1,6 +1,7 @@
 h1{
     z-index: 1;
     position: absolute;
+    text-align: center;
     font-size: 6vw;
     top: 125vw;
     left: 50%;
