@@ -171,7 +171,7 @@ ul li{
 }
 @font-face {
     font-family: 'Bacasime Antique';
-    src: url('/fonts/BacasimeAntique-Regular.ttf') format('truetype');
+    src: url('../fonts/BacasimeAntique-Regular.ttf') format('truetype');
     font-weight:lighter;
     font-style: normal;
 }
