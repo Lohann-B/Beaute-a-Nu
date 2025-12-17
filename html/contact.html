@@ -5,11 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Contact</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/global.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='/css/light-theme.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/global.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/light-theme.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/contact.css'>
     <script src='../javascript/main.js'></script>
 </head>
+
 <body>
+    <!--- HEADER --->
     <header>
                 <svg width="114" height="30" viewBox="0 0 114 30" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
                     <g id="logo">
@@ -21,83 +24,102 @@
                     <p id="BNUlogo" onclick="GotoHP(event)">BNU</p>
                 </figure>
     </header>
-    <p>
-        /Beauté à Nu/
-    </p>
-    <img src="../img/chauve-dos.png" alt="chauve pas vraiment chauve">
-    <p>
-        Nos Contacts
-    </p>
-    <img src="../img/chauve-main.png" alt="chauve avec main">
-    <p>
-        Nous vous répondrons au plus vite !
-    </p>
-    <p>
-        notre email@email.com
-    </p>
-    <p>
-        tel: 06 07 08 09 10
-    </p>
-    <p>
-         @beuté_à_nu
-    </p>
-    <footer>
-            <p>Quel est notre objectif :</p>
-            <ul>
-                <li>
-                    Nous avons pour but de promouvoir la calvitie , car le manque de cheveux touche beaucoup d’homme dans le monde et parfois c’est trop tard alors laisser vos cheveux derrière vous et apprenez de se guide du chauve.
-                </li>
-            </ul>
-            <fieldset id="messageBox">
-                <legend>Donnez-nous votre avis!</legend>
-                <figure id="scoreBox">
-                    <input type="radio" checked name="starsRating" id="var5" value="5">
-                    <label for="var5" class="rating">
-                        ★
-                    </label>
-                    <input type="radio" name="starsRating" id="var4" value="4">
-                    <label for="var4" class="rating">
-                        ★
-                    </label>                
-                    <input type="radio" name="starsRating" id="var3" value="3">
-                    <label for="var3" class="rating">
-                        ★
-                    </label>
-                    <input type="radio" name="starsRating" id="var2" value="2">
-                    <label for="var2" class="rating">
-                        ★
-                    </label>
 
-                    <input type="radio" name="starsRating" id="var1" value="1">
-                    <label for="var1" class="rating">
-                        ★
-                    </label>
-                </figure>
-                <input type="email" id="email-feed-back" name="email-address" placeholder="votreEmail@example.com">
-                <textarea name="feed-back" id="feed-back" placeholder="votre message"></textarea>
-                <button type="submit" id="submitButton">envoyer</button>
-            </fieldset>
-            <h3>suivez nous sur nos réseaux !</h3>
-            <a href="https://github.com/Lohann-B/Beaute-a-Nu" id="githubLink" class="iconSocialMedia">github</a>
-            <a href="https://www.instagram.com/beautee.anu?igsh=MXI0djlrMmJnczFodQ==" id="igLink" class="iconSocialMedia">linkedin</a>
-            <a href="https://www.linkedin.com/in/lowann-php-my-balbas-a757a539a/" id="linkedinLink" class="iconSocialMedia">instagram</a>
-            <figure id="footer">
-                <em>Learn more</em> 
-                <ul>
-                    <li><a href="/index.html">Accueil</a></li>
-                    <li><a href="/html/histoire.html">Be Proud</a></li>
-                    <li><a href="/html/conseils.html">Conseils</a></li>
-                    <li><a href="/html/produit.html">Produits</a></li>
-                    <li><a href="/html/collaborateurs.html">Nos collaborateurs</a></li>
-                    <li><a href="/html/photo.html">Photos</a></li>
-                    <li><a href="/html/a-propos-de-nous.html">A propos de nous</a></li>
-                </ul>
-                <em>Support</em>
-                <ul>
-                    <li><a href="/html/source.html">Legal</a></li>
-                    <li><a href="/html/contact.html">Contact</a></li>
-                </ul>
-            </figure>
-        </footer>
-    </body>
+    <!--- TITRE -->
+    <section class="titre">
+        <h1> Beauté à Nu </h1>
+    </section>
+
+    <!--- CONTENU --->
+    <section class="contenu">
+        <flex-box class="flex-horiz">
+            <flex-box class="flex-vert">
+
+                <p>
+                    Nous vous répondrons au plus vite !
+                </p>
+
+                <table class="gauche">
+                    <tr>
+                        <th class="case1">
+                            <p>beautee.anu@gmail.com</p>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th class="case2">
+                            <p>tel : 06 07 08 09 10</p>
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th class="case1">
+                            <p>@beuté_à_nu</p>
+                        </th>
+                    </tr>
+
+                </table>
+                
+            </flex-box>
+
+            <table class="droite">
+                <tr>
+                    <th>
+                        <img src="../img/contact/chauve-dos.png" alt="chauve pas vraiment chauve" class="calvitie_avancee">
+                    </th>
+
+                    <td>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Nos<br> Contacts</p>
+                    </th>
+
+                    <td>
+                        <img src="../img/contact/chauve-main.png" alt="chauve avec main" class="chauve_main">
+                    </td>
+                </tr>
+            </table>
+
+        </flex-box>
+    </section>
+
+    <!--- FOOTER --->
+    <footer>
+    <fieldset>
+        <legend>Donnez-nous votre avis!</legend>
+        <input type="radio" name="satisfaction" value="1">
+        <label for="value">1 étoile</label>
+        <input type="radio" name="satisfaction" value="2">
+        <label for="value">2 étoiles</label>
+        <input type="radio" name="satisfaction" value="3">
+        <label for="value">3 étoiles</label>
+        <input type="radio" name="satisfaction" value="4">
+        <label for="value">4 étoiles</label>
+        <input type="radio" name="satisfaction" value="5">
+        <label for="value">5 étoiles</label>
+        <textarea name="feed-back" id="feed-back"></textarea>
+        <button type="submit">Submit</button>
+    </fieldset>
+    <em>Learn more</em> 
+    <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="../html/histoire.html">Be Proud</a></li>
+        <li><a href="../html/conseils.html">Conseils</a></li>
+        <li><a href="../html/produit.html">Produits</a></li>
+        <li><a href="../html/collaborateurs.html">Nos collaborateurs</a></li>
+        <li><a href="../html/photo.html">Photos</a></li>
+        <li><a href="../html/a-propos-de-nous.html">A propos de nous</a></li>
+    </ul>
+    <em>Support</em>
+    <ul>
+        <li><a href="../html/source.html">Legal</a></li>
+        <li><a href="../html/contact.html">Contact</a></li>
+    </ul>
+
+    </footer>
+</body>
 </html>
