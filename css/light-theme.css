@@ -22,15 +22,8 @@ footer{
 }
 
 #messageBox{
-  border-style:solid;
-  background-color: 282828;
-  border-radius: 20px;
-  border-width: 5px;
-  border-color: #e5e5e53e;
-  display: flex;
-  flex-direction: column;
-  justify-content:left;
-  margin: 20% 50% 20% 0%;
+  background-color: #ffffff;
+  border-color: lightgray;
 }
 
 textarea{
@@ -43,11 +36,7 @@ textarea{
 
 #email-feed-back{
   color: #000000d1;
-  border-radius: 16px;
-  border-style: solid;
   border-color: white;
-  padding-right: 50%;
-  margin-bottom: 10px;
 }
 
 
@@ -67,6 +56,14 @@ li a{
 
 #githubLink{
     background-image: url(../img/global/github-mark.svg);
+}
+
+#igLink{
+    background-image: url(../img/global/Instagram_Glyph_Black.svg);
+}
+
+#linkedinLink{
+    background-image: url(../img/global/InBug-Black.png);
 }
 
 #navigationBar{

@@ -26,18 +26,6 @@ li a{
     color: #00000055;
 }
 
-#messageBox{
-  border-style:solid;
-  background-color: 282828;
-  border-radius: 16px;
-  border-width: 5px;
-  border-color: #e5e5e53e;
-  display: flex;
-  flex-direction: column;
-  justify-content:left;
-  margin: 20% 50% 20% 0%;
-}
-
 textarea{
   color: #838383;
   border-radius: 16px;
@@ -48,11 +36,7 @@ textarea{
 
 #email-feed-back{
   color: #ffffffd1;
-  border-radius: 16px;
-  border-style: solid;
   border-color: #282828;
-  padding-right: 50%;
-  margin-bottom: 10px;
 }
 
 
@@ -72,6 +56,14 @@ li a{
 
 #githubLink{
     background-image: url(../img/global/github-mark-white.svg);
+}
+
+#igLink{
+    background-image: url(../img/global/Instagram_Glyph_White.svg);
+}
+
+#linkedinLink{
+    background-image: url(../img/global/InBug-White.png);
 }
 
 #navigationBar{
