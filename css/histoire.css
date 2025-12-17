@@ -117,9 +117,11 @@ p{
     line-height: 200%;   
 }
 
-.contenu1 strong{
+.contenu1 a{
     color: white;
     font-size: 3.5vh;
+    text-decoration: none;
+    font-weight: bolder;
 
     margin-left: 2%;
 }
