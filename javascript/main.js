@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   let isDark = false;
 
   btn.addEventListener('click', () => {
-    theme.href = isDark ? 'css/light-theme.css' : 'css/dark-theme.css';
+    theme.href = isDark ? '../css/light-theme.css' : '../css/dark-theme.css';
     btn.textContent = isDark ? "☾" : "☀";
     isDark = !isDark;
   });
