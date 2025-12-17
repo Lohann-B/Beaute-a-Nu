@@ -1,63 +1,62 @@
 h1{
+    z-index: 1;
     position: absolute;
-    top: 50%;
+    text-align: center;
+    font-size: 6vw;
+    top: 125vw;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     color: white;
 }
 
-#logo {
-    color: #fff;
+body{
+  margin-top: -1em;
 }
 
 h2{
     margin-left: 30px;
-    font-size: 5em;
-    font-size: 50px;
+    font-size: 4em;
     text-align: left;
     max-width: 20%;
 }
 
-#title {
-    top: 125vw;
-    font-size: 6vw;
-    display: flex;
-    justify-content: center;
-    color: white;
+h3{
+    margin-left: 20px;
+    font-size: 1em;
+    text-align: left;
+    color: grey;
 }
 
 #lien1, #lien2 {
+    z-index: 1;
     font-size: 2vw;
     position: absolute;
     color: white;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #lien1 {
     top:110vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #lien2 {
     top:240vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #imageDePresentation {
     display:block;
     width: 100%;
+    height: auto;
     justify-content: center;
-    margin-top: -1em;
     margin-left: auto;
-    color: #fff;
+    overflow-x: hidden;
 }
 
 #image1, #image2 {  
   display: block;
   width: 100%;
   height: auto;
-
 }
 
 @media (min-width: 600px) {
@@ -70,19 +69,17 @@ h2{
         display: flex;
         width: 50%;
     }
-    #title {
-    top: 25vw;
+    h1{
+        top: 25vw;
     }
     #lien1 {
         position: absolute;
         top:60vw;
         left: 25%;
-        transform: translate(-50%, -50%);
     }
     #lien2 {
         position: absolute;
         top:60vw;
         left: 75%;
-        transform: translate(-50%, -50%);
     }
 }

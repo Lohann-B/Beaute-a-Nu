@@ -1,8 +1,3 @@
-body{
-    background-color: #404040;
-    color: #000000;
-}
-
 #logo{
     background: white;
 }
@@ -14,32 +9,21 @@ body{
 
 footer{
     font-family: "inter", medium;
-    background-color: #ffffff;
+    background-color: rgb(240, 240, 240);
     color: #000000;
     margin-left: -0.5em;
-    margin-right: -0.5em;
     margin-bottom: -1em;
     padding: 2em;
     position: flex;
     left: 0;
 }
-
-#footer{
-    padding: 0;
-    line-height: 145%;
+#contraste{
+   color:#dcdcfb; 
 }
 
-
 #messageBox{
-  border-style:solid;
-  background-color: 282828;
-  border-radius: 16px;
-  border-width: 5px;
-  border-color: #e5e5e53e;
-  display: flex;
-  flex-direction: column;
-  justify-content:left;
-  margin: 20% 50% 20% 0%;
+  background-color: #ffffff;
+  border-color: lightgray;
 }
 
 textarea{
@@ -52,11 +36,7 @@ textarea{
 
 #email-feed-back{
   color: #000000d1;
-  border-radius: 16px;
-  border-style: solid;
   border-color: white;
-  padding-right: 50%;
-  margin-bottom: 10px;
 }
 
 
@@ -72,4 +52,24 @@ textarea{
 li a{
     color: #000000d5;
     font-size: 160%;
+}
+
+#githubLink{
+    background-image: url(../img/global/github-mark.svg);
+}
+
+#igLink{
+    background-image: url(../img/global/Instagram_Glyph_Black.svg);
+}
+
+#linkedinLink{
+    background-image: url(../img/global/InBug-Black.png);
+}
+
+#navigationBar{
+    background-color: white;
+}
+
+#NavBoutonMenu{
+    background-image: url(../img/global/logo-Black.svg);
 }
