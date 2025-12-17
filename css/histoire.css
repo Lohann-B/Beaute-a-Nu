@@ -41,6 +41,7 @@ p{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
+    overflow-x: hidden;
     column-gap: 0vh;
 
     background: linear-gradient(to right, black 75%, rgb(27, 27, 27) 100%);
