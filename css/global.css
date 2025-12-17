@@ -89,16 +89,16 @@ ul li{
 .iconSocialMedia{
   background-position-x: center;
   background-position-y: center;
-  background-size: cover;
-  padding-block: 11px;
-  color: transparent;
+  background-size:cover;
+  width: 40px;
+  height: 40px;
   display: inline-flex;
-  margin-bottom: 2em;
-  margin-right: 1em;
+  font-size: 0%;
 }
 
 #BoutonMenu{
   margin-left: 10px;
+  font-size: 40%;
   border: hidden;
   cursor: pointer;
   background: #ffffff00;
@@ -115,6 +115,7 @@ ul li{
 }
 
 #navigationBar{
+  z-index: 2;
   display:absolute;
   position: fixed;
   overflow-y: hidden;
@@ -132,10 +133,10 @@ ul li{
 #NavBoutonMenu{
   margin-left: 10px;
   margin-top: 25px;
+  font-size: 40%;
   border: hidden;
   cursor: pointer;
   background: #ffffff00;
-  background-image: url(../img/global/logo-Black.svg);
   background-position-x: center;
   background-position-y: center;
   background-size: cover;
@@ -145,6 +146,24 @@ ul li{
   padding-top: 1.2em;
   padding-bottom: 1.2em;
 
+}
+
+#email-feed-back{
+  border-radius: 16px;
+  border-style: solid;
+  padding-right: 50%;
+  margin-bottom: 10px;
+}
+
+#messageBox{
+  border-style:solid;
+  background-color: 282828;
+  border-radius: 16px;
+  border-width: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  margin: 20% 50% 20% 0%;
 }
 
 @font-face {
