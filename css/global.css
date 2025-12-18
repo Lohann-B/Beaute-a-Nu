@@ -23,6 +23,11 @@ header{
   left: 0;
 }  
 
+#hauDePage{
+  font-size: 0%;
+  display: hidden;
+}
+
 #contraste{
     background-color: #ffffff00;
     font-size:larger;
