@@ -1,6 +1,8 @@
-User-agent: *
-Disallow: /html/source.html
-Disallow: /html/contact.html
+# start of file
+user-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+User-agent: AdsBot-Google
+Disallow: /
+
+sitemap: https://example.com/sitemap-file.xml

@@ -5,6 +5,8 @@ body{
   font-style: normal;
 }
 
+
+
 header{
   z-index: 2;
   display: flex;
@@ -38,10 +40,13 @@ header{
 #BNUlogo{
   cursor: pointer;
   margin-right: 2%;
+  margin-top: 0.5vw;
+  margin-bottom: 0.5vw;
   background: linear-gradient(#fff200, #ffc300);
   background-clip: content-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: ease-in-out 0.3s;
 }
 
 input[type="radio"]{
@@ -161,8 +166,12 @@ ul li{
 }
 
 #validator{
-  width: 2em;
+  width: 7vw;
   height: auto;
+}
+
+.mediaTitre{
+    font-size: 1vw;
 }
 
 @font-face {
