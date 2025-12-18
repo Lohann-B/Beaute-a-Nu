@@ -148,4 +148,8 @@ footer{
         box-shadow: 5px 5px 12px #00000069;
 }
 
-/* --- SECTION PRODUIT --- */
+/* --- SECTION COLLABO --- */
+
+.contenu-c h2{
+    border-bottom: solid rgba(0, 0, 0, 0.856) 2px;
+}

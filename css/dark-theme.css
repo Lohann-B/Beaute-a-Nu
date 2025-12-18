@@ -69,7 +69,13 @@ li a{
 }
 
 /* --- Lohann --- */
+a{
+    color: #d40000;
+}
 
+a:visited{
+    color: #9c0000;
+}
 
 body{
     background: url("../img/global/Fond_Black.png");
@@ -141,6 +147,10 @@ footer{
         box-shadow: 5px 5px 12px #ffffff46;
 }
 
-/* --- SECTION PRODUIT --- */
+/* --- SECTION COLLABO --- */
+
+.contenu-c h2{
+    border-bottom: solid rgba(255, 255, 255, 0.842) 2px;
+}
 
 

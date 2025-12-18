@@ -12,9 +12,6 @@ body{
     align-items: center;
     flex-direction: column;
 
-    background-color: rgba(49, 49, 49, 0.911);
-    box-shadow: 5px 5px 12px #00000069;
-
     margin: 0;
     padding: 0;
 
@@ -25,9 +22,6 @@ body{
 .titre {
     padding: 4vh 0;
     padding-top: 8vh;
-
-    background: linear-gradient(to top, black, rgb(51, 51, 51));
-    box-shadow: 5px 5px 12px #00000069;
 }
 
 .titre h1{
@@ -36,41 +30,35 @@ body{
     font-size: 7vh;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
     font-family: 'Inter' , normal;
     font-weight: 900;
-    text-shadow: 0px 4px 15px #ffffff48;
 }
 
 /* --- SECTION CONTENU --- */
-.contenu{
+.contenu-c{
     display: flex;
     align-items: center;
     flex-direction: column;
 
     margin: 5vh 0;
-
-    color: white;
 }
 
-.contenu h2{
+.contenu-c h2{
     padding: 0 5vh;
     padding-bottom: 1vh;
     font-size: 3.5vh;
     font-weight: 900;
-
-    border-bottom: white 2px solid;
 }
 
-.contenu h3{
+.contenu-c h3{
     font-size: 3vh;
 }
 
-.contenu p{
+.contenu-c p{
     font-size: large;
 }
 
-.contenu flex-box{
+.contenu-c flex-box{
     margin: 0 2vh;
     margin-bottom: 3vh;
 }
