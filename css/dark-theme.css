@@ -86,7 +86,7 @@ body{
     color: #ffffff;
 }
 
-p, h1, h2, h3, a {
+p, h1, h2, h3{
     color: white;
 }
 
@@ -191,4 +191,10 @@ footer{
 .flex-vert-p flex-box{
     background-color: #000000b2;
     box-shadow: 3px 3px 8px #ffffff54;
+}
+
+/* --- SECTION SOURCES --- */
+.flex-horiz-s{
+    background-color: rgba(26, 26, 26, 0.9);
+    box-shadow: 5px 5px 12px #ffffff46;
 }
