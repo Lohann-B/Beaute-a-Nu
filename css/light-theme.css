@@ -142,8 +142,10 @@ footer{
     
 }
 
-/* --- SECTION HISTOIRE --- */
+/* --- SECTION CONSEIL --- */
 .flex-vert{
         background-color: rgba(189, 173, 121, 0.90);
         box-shadow: 5px 5px 12px #00000069;
 }
+
+/* --- SECTION PRODUIT --- */
