@@ -80,9 +80,14 @@ body{
     color: #ffffff;
 }
 
+p, h1, h2, h3, a {
+    color: white;
+}
+
 /* --- SECTION TITRE --- */
 .titre{
     background:linear-gradient( to top, rgba(0, 0, 0, 0.95), rgba(51, 51, 51, 0.95));
+        box-shadow: 5px 5px 12px #ffffff42;
 }
 
 .titre h1{
@@ -117,16 +122,22 @@ footer{
     border-top: solid 2px rgba(255, 255, 255, 0.247);
 }
 
-.flex-horiz{
+.flex-horiz-hist{
     background: linear-gradient(to right, rgba(255, 255, 255, 0.753) 75%, rgba(190, 190, 190, 0.767) 100%);
 }
 
-/* --- ADAPTATION TELEPHONE --- */
+/* ADAPTATION TELEPHONE */
 @media screen and (max-width: 640px){
 
-.flex-horiz{
+.flex-horiz-hist{
     background: linear-gradient(to right, rgba(255, 255, 255, 0.733) 85%, rgba(190, 190, 190, 0.699) 100%);
 }
     
+}
+
+/* --- SECTION HISTOIRE --- */
+.flex-vert{
+        background-color: rgba(26, 26, 26, 0.9);
+        box-shadow: 5px 5px 12px #ffffff46;
 }
 
