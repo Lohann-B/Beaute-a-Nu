@@ -53,26 +53,17 @@ input[type="radio"]{
   width: 0%;
 }
 
-#scoreBox{
-  display: flex;
-  justify-content: left;
-  flex-direction:row-reverse;
-  margin-left: 0%;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  font-size: 1rem;
-}
-
 .rating {
   cursor: pointer;
   color: gray;
   transition: color 0.7s;
 }
-
-.rating:hover,
-.rating:hover ~ label {
+input[type="radio"]:checked,
+input[type="radio"]:checked ~ label {
   color: gold;
 }
+
+
 
 ul li{
   list-style-type: none;
@@ -143,6 +134,16 @@ ul li{
 
 }
 
+#scoreBox{
+  display: flex;
+  justify-content: left;
+  flex-direction:row-reverse;
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 1rem;
+}
+
 #email-feed-back{
   border-radius: 16px;
   border-style: solid;
@@ -152,7 +153,6 @@ ul li{
 
 #messageBox{
   border-style:solid;
-  background-color: #282828;
   border-radius: 16px;
   border-width: 5px;
   display: flex;

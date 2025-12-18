@@ -17,15 +17,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-document.addEventListener('click',() => {
+function starsRating(event) {
   const radios = document.getElementsByName('starsRating');
+  let Rating = 0;
 
   for (var i = 0; i < radios.length; i++) {
     if (radios[i].checked) {
-      break;
+      const Valeur = Rating ? Number(Rating.value) : 0
+      if (Number(radios[i].value) > Valeur) {
+        Rating = radios[i];
+      }
     }
   }
-});
+  return Rating = Number(Rating.value);
+}
 
 function GotoHP(event){
   event.preventDefault();
@@ -47,3 +52,24 @@ function openCloseNavBar(event) {
     nav.setAttribute('hidden', '');
   }
 }
+
+function submitForm(event){
+    const form = document.getElementById('feedbackForm');
+    const email = document.getElementById('email-feed-back').value.trim();
+    const message = document.getElementById('feed-back').value.trim();
+    if (!email || !message) {
+      alert('Merci de renseigner votre e‑mail et votre message.');
+      return;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert('Adresse e‑mail invalide.');
+      return;
+    }
+    const to = 'Beaute.anu@outlook.fr';
+    const subject = `Nouvel avis – ${email}`;
+    const note = starsRating(event);
+    const body = `De : ${email}\n\nNote: ${note}/5\n${message}`;
+    const mailto = `mailto:${encodeURIComponent(to)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    window.location.href = mailto;
+  };
