@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="fr">
     <head>
-            <title>Accueil - Beauté à Nu</title>  
+            <main><title>Accueil - Beauté à Nu</title>
             <link rel="icon" href="./img/global/icon.png">        
             <meta charset="UTF-8">
             <meta name="description" content="Beauté à Nu – Découvrez des conseils bien-être, des histoires inspirantes et des produits pour assumer la calvitie avec fierté. Apprenez à vivre pleinement sans cheveux et à valoriser votre style unique.">
@@ -10,6 +10,7 @@
             <link rel='stylesheet' href='css/index.css'>
             <script src="./javascript/main.js"></script>
             <meta name="viewport" content="width=device-width, initial-scale=1">
+            </main>
     </head>
     <body>
         <a id="hautDePage">haut de page</a>
@@ -38,14 +39,14 @@
                 <h1 id="title">Beauté à NU</h1>
                 <a href="./html/conseils.html" id="lien1">Conseils & bien être</a>
                 <a href="./html/histoire.html" id="lien2">Découvrir la vie en chauve</a>
-                <img src="./img/global/DeuxChauvesDeDos.png" alt="deux chauves de dos" id="image1" width="640" height="360">
-                <img src="./img/global/UnChauveDeDos.png" alt="un chauves de dos" id="image2" width="640" height="360">
+                <img src="./img/global/DeuxChauvesDeDos.webp" alt="deux chauves de dos" id="image1" width="640" height="360">
+                <img src="./img/global/UnChauveDeDos.webp" alt="un chauves de dos" id="image2" width="640" height="360">
             </figure>
             <h2>BEHIND THE BALD</h2>
-            <h3>Petite vidéo sous-titré</h3>
+            <h3>La confrérie des chauves! (disponible avec des sous-titres en français)</h3>
             <figure>
-                <video src="./video/video.mp4" type="video/mp4" controls width="700" height="400" oncanplay="soustitre(event)">
-                <track kind="captions" src="./video/sous-titres.vtt" srclang="en" label="English">
+                <video id="video" src="./video/video.mp4" controls width="700" height="400">
+                <track kind="captions" src="./video/sous-titres.vtt" srclang="fr" label="Français">
             </video>
             </figure>
         <footer>

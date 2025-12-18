@@ -21,20 +21,17 @@ h2{
 }
 
 h3{
+    font-family: 'Inter', sans-serif;
     margin-left: 20px;
-    font-size: 1em;
+    font-size: 2vw;
     text-align: left;
-    color: grey;
 }
 
-#videoIndex{
-    display: block;
-    width: 50vw;
+#video{
+    width: 100%;
     height: auto;
-    border-color: black;
-    border-width: 2px;
-    border-style:ridge;
-
+    border-radius: 25px;
+    box-shadow: 0cm 0cm 1cm #00000080;
 }
 
 #lien1, #lien2 {
@@ -61,6 +58,7 @@ h3{
     justify-content: center;
     margin-left: auto;
     overflow-x: hidden;
+    box-shadow: 0cm 0cm 1cm #00000090;
 }
 
 #image1, #image2 {  
