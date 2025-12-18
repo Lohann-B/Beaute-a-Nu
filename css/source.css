@@ -85,4 +85,8 @@ footer{
 
 @media screen and (max-width: 640px){
 
+h1{
+    margin: 10%;
+    margin-top: 25%;
+}
 }
