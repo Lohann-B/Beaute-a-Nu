@@ -153,3 +153,27 @@ footer{
 .contenu-c h2{
     border-bottom: solid rgba(0, 0, 0, 0.856) 2px;
 }
+
+/* --- SECTION PHOTO --- */
+.titre-h{
+    background: linear-gradient(to top, #eeeeee, #999999);
+    box-shadow: 5px 5px 12px #00000069;
+}
+
+.contenu-h figure{
+    background: linear-gradient(to right, rgba(199, 199, 199, 0.466), rgba(255, 208, 0, 0.418), rgba(212, 212, 212, 0.445));
+    box-shadow: 5px 5px 12px #000000a4;
+}
+
+.contenu-h figcaption{
+    background-color: #dadadadc;
+    color: rgb(0, 0, 0);
+}
+
+.contenu-h img{
+    background-color:#dadadadc;
+}
+
+.contenu-h .nom{
+    border-bottom: 2px rgba(0, 0, 0, 0.856) solid;
+}

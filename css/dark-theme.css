@@ -93,7 +93,7 @@ p, h1, h2, h3, a {
 /* --- SECTION TITRE --- */
 .titre{
     background:linear-gradient( to top, rgba(0, 0, 0, 0.95), rgba(51, 51, 51, 0.95));
-        box-shadow: 5px 5px 12px #ffffff42;
+    box-shadow: 5px 5px 12px #ffffff42;
 }
 
 .titre h1{
@@ -153,4 +153,27 @@ footer{
     border-bottom: solid rgba(255, 255, 255, 0.842) 2px;
 }
 
+/* --- SECTION PHOTO --- */
+.titre-h{
+    background:linear-gradient( to top, rgb(0, 0, 0), rgb(51, 51, 51));
+    box-shadow: 5px 5px 12px #ffffff42;
+}
+
+.contenu-h figure{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.466), rgba(54, 44, 0, 0.486), rgba(0, 0, 0, 0.445));
+    box-shadow: 5px 5px 12px #000000a4;
+}
+
+.contenu-h figcaption{
+    background-color: #222;
+    color: white;
+}
+
+.contenu-h img{
+    background-color:#222;
+}
+
+.contenu-h .nom{
+    border-bottom: 2px rgba(255, 255, 255, 0.856) solid;
+}
 
