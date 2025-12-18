@@ -78,3 +78,13 @@ li a{
 #NavBoutonMenu{
     background-image: url(../img/global/logo-Black.svg);
 }
+
+/* Lohann */
+
+a{
+    color: #0E8500;
+}
+
+a:visited{
+    color: #556E00;
+}

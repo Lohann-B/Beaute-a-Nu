@@ -48,17 +48,25 @@ p{
 
     padding: 0;
     margin: 0;
+
+    box-shadow: 5px 5px 12px #00000069; 
 }
 
 /* --- SECTION TITRE --- */
 .titre h1{
     margin: 0;
-    padding: 4vh;
-
-    font-size: 4vh;
+    padding: 4vh 0;
+    padding-top: 8vh;
 
     background:linear-gradient( to top, black, rgb(51, 51, 51));
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: white;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
+    text-shadow: 0px 4px 15px #ffffff48;
 }
 
 .titre figure{
@@ -66,7 +74,8 @@ p{
     padding: 0;
 
     background-color: rgb(0, 0, 0);
-    filter: brightness(0.75);    
+    filter: brightness(0.75);
+    box-shadow: 5px 5px 12px #00000069; 
 }
 
 .titre #femme_chauve{
@@ -86,9 +95,11 @@ p{
     margin: 2vh;
     max-width: 35%;
 
-    text-align: left;
-    font-size: 6vh;
+    letter-spacing: 2px;
     color: white;
+    font-weight: 900;
+    text-align: left;
+    font-size: 7vh;
 }
 
 .contenu1 .flex-horiz section{

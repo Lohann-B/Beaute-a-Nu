@@ -42,12 +42,16 @@ p{
 
 /* --- SECTION TITRE --- */
 .titre{
-    padding: 30vh 0;
-    padding-top: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20vh 0;
     margin-bottom: 10vh;
 
     position: relative;
 
+    border-bottom: 7px rgba(180, 140, 65, 0.322) solid;
     box-shadow: 5px 5px 12px #00000069;
 
 }
@@ -66,9 +70,6 @@ p{
 }
 
 .titre h1{
-    color: rgba(255, 255, 255, 0.938);
-    text-shadow: 3px 3px 8px #00000077;
-
     font-size: 7vh;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -76,9 +77,6 @@ p{
     font-family: 'Inter' , normal;
     font-weight: 900;
     text-shadow: 0px 4px 15px #ffffff48;
-
-    text-align: center;
-    vertical-align: center;
 }
 
 /* --- SECTION CONTENU --- */
