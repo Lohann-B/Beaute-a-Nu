@@ -23,11 +23,6 @@ header{
   left: 0;
 }  
 
-#hauDePage{
-  font-size: 0%;
-  display: hidden;
-}
-
 #contraste{
     background-color: #ffffff00;
     font-size:larger;
@@ -164,6 +159,11 @@ ul li{
   flex-direction: column;
   justify-content:left;
   margin: 20% 50% 20% 0%;
+}
+
+#hautDePage{
+  visibility: hidden;
+  position: absolute;
 }
 
 @font-face {
