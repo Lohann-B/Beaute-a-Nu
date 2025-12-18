@@ -118,6 +118,8 @@ p{
     line-height: 200%;   
 }
 
+
+
 .contenu1 a{
     color: white;
     font-size: 3.5vh;
@@ -127,7 +129,7 @@ p{
     margin-left: 2%;
 }
 
-.contenu1 .etoile{
+.contenu1 .etoile .signature{
     width: 4vh;
     margin-left: 10%;
 }
