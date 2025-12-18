@@ -79,8 +79,7 @@ a:visited{
 
 body{
     background: url("../img/global/Fond_Black.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
 
     color: #ffffff;
