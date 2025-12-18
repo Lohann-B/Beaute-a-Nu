@@ -113,7 +113,6 @@ ul li{
 
 #navigationBar{
   z-index: 3;
-  display:absolute;
   position: fixed;
   overflow-y: hidden;
   line-height: 1.5cm;
@@ -121,7 +120,6 @@ ul li{
   padding-bottom: 20%;
   width: 100%;
   height: 100%;
-  transform: linear 0.5s;
   font-size: larger;
   font-family: 'Inter', sans-serif;
   transition: linear 0.7s;
@@ -154,7 +152,7 @@ ul li{
 
 #messageBox{
   border-style:solid;
-  background-color: 282828;
+  background-color: #282828;
   border-radius: 16px;
   border-width: 5px;
   display: flex;
@@ -172,6 +170,6 @@ ul li{
 @font-face {
     font-family: 'Bacasime Antique';
     src: url('../fonts/BacasimeAntique-Regular.ttf') format('truetype');
-    font-weight:lighter;
+    font-weight: 400;
     font-style: normal;
 }
