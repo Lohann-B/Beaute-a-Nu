@@ -74,3 +74,4 @@ function submitForm(event){
     window.location.href = mailto;
     alert('Votre message est envoyé ! Merci beaucoup pour votre retour 😁!');
   };
+
