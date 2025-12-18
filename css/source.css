@@ -41,6 +41,7 @@ h3{
 .flex-horiz{
     display: flex;
     justify-content: flex-start;
+    flex-wrap: wrap;
     flex-direction: row;
     column-gap: 5em;
 
@@ -60,11 +61,12 @@ h3{
 
 /* --- IMAGE --- */
 img{
-    max-width: 60%;
+    width: cover;
     box-shadow: 3px 3px 8px #00000054;
+    overflow-x: scroll;
 }
 
-/* --- LIENS --- global ?*/
+/* --- LIENS --- global */
 a{
     color: #0E8500;
 }
@@ -80,3 +82,7 @@ footer{
 }
 
 /* --- FIN FOOTER --- */
+
+@media screen and (max-width: 640px){
+
+}
