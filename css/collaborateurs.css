@@ -1,0 +1,71 @@
+/* Page Validée */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* --- GENERAL CLASS --- */
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgba(49, 49, 49, 100%);
+    box-shadow: 5px 5px 12px #00000069;
+
+    margin: 0;
+    padding: 0;
+
+    width: 80%;
+}
+
+/* --- SECTION TITRE --- */
+.titre {
+    padding: 4vh 0;
+    padding-top: 8vh;
+
+    background: linear-gradient(to top, black, rgb(51, 51, 51));
+}
+
+.titre h1{
+    font-size: 7vh;
+    color: white;
+
+    text-align: center;
+}
+
+/* --- SECTION CONTENU --- */
+.contenu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 5vh 0;
+
+    color: white;
+}
+
+.contenu h2{
+    padding: 0 5vh;
+    padding-bottom: 1vh;
+    font-size: 3.5vh;
+    font-weight: 900;
+
+    border-bottom: white 2px solid;
+}
+
+.contenu h3{
+    font-size: 3vh;
+}
+
+.contenu p{
+    font-size: large;
+}
+
+.contenu flex-box{
+    margin: 0 2vh;
+    margin-bottom: 3vh;
+}
+
