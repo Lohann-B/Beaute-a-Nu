@@ -31,15 +31,28 @@ body{
 }
 
 /* --- SECTION TITRE --- */
-.titre{
-    padding: 3vh 0;
-
-    font-size: 3vh;
-    color: white;
+.titre {
+    padding: 4vh 0;
+    padding-top: 8vh;
+    margin-bottom: 5vh;
 
     background: linear-gradient(to top, black, rgb(51, 51, 51));
+    box-shadow: 5px 5px 12px #00000069;
+
+
 }
 
+.titre h1{
+    text-align: center;
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
+    text-shadow: 0px 4px 15px #ffffff48;
+}
 /* --- SECTION CONTENU --- */
 .contenu{
     margin: 7vh;
@@ -47,6 +60,7 @@ body{
 
 /* Droite */
 .contenu .droite{
+    margin: 2vw;
     box-shadow: 3px 3px 8px #00000054;
     background-color: rgba(0, 0, 0, 0.137);
 
@@ -89,11 +103,11 @@ body{
 
 /* Gauche */
 .contenu .gauche{
-    margin: 2vh 0;
+    margin: 0;
     padding: 1vh 4vh;
 
     box-shadow: 3px 3px 8px #00000054;
-    background-color: rgba(0, 0, 0, 0.062);
+    background-color: rgba(212, 205, 161, 0.87);
 
     border-spacing: 2vh;
     border-radius: 5vh 0;
