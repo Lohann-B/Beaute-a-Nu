@@ -36,14 +36,12 @@ p{
     width: 60%;
 }
 
-.flex-horiz{
+.flex-horiz-hist{
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     overflow-x: hidden;
     column-gap: 0vh;
-
-    background: linear-gradient(to right, black 75%, rgb(27, 27, 27) 100%);
 
     padding: 0;
     margin: 0;
@@ -52,45 +50,41 @@ p{
 }
 
 /* --- SECTION TITRE --- */
-.titre h1{
-    margin: 0;
+.titre {
     padding: 4vh 0;
     padding-top: 8vh;
+}
 
-    background:linear-gradient( to top, black, rgb(51, 51, 51));
+.titre h1{
+    text-align: center;
 
     font-size: 7vh;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: white;
     font-family: 'Inter' , normal;
     font-weight: 900;
-    text-shadow: 0px 4px 15px #ffffff48;
 }
 
-.titre figure{
+#image1 {
     margin:0;
     padding: 0;
 
-    background-color: rgb(0, 0, 0);
+    
     filter: brightness(0.75);
     box-shadow: 5px 5px 12px #00000069; 
 }
 
-.titre #femme_chauve{
+#femme_chauve{
     object-fit: cover;
-    height: 50vh;
+    height: 60vh;
     width: 100%;
     object-position: center 30%;
 }
 
 /* --- SECTION CONTENU1 --- */
-.contenu1 {
-    border: solid 4px black;
-}
 
 /* Gauche */
-.contenu1 .flex-horiz h2{
+.contenu1 .flex-horiz-hist h2{
     margin: 2vh;
     max-width: 35%;
 
@@ -101,35 +95,34 @@ p{
     font-size: 7vh;
 }
 
-.contenu1 .flex-horiz section{
+.contenu1 .flex-horiz-hist section{
     width: 40%;
     background: url("../img/histoire/homme_chauve_rouge.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    box-shadow: 6px 0px 15px rgba(0, 0, 0, 0.459);
 }
 
 /* Droite */
 .contenu1 figure{
-    background: linear-gradient(to right, rgb(29, 28, 28) 60%, rgb(107, 88, 1)) 100%;
-
     margin-left: 20%;
     padding: 5% 0;
 
     width: 100%;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.329);
 }
 
 .contenu1 p{
     padding: 6% 17%;
     padding-bottom: 2%;
     
-    color: white;
     text-align: center;
     line-height: 200%;   
 }
 
 .contenu1 a{
-    color: white;
     font-size: 3.5vh;
     text-decoration: none;
     font-weight: bolder;
@@ -140,11 +133,6 @@ p{
 .contenu1 .etoile{
     width: 4vh;
     margin-left: 10%;
-}
-
-/* --- FOOTER --- */
-footer{
-    border-top: solid 2px rgba(0, 0, 0, 0.315);
 }
 
 /* --- ADAPTATION TELEPHONE --- */
@@ -161,10 +149,8 @@ p{
     width: 25%;
 }
 
-.flex-horiz{
+.flex-horiz-hist{
     flex-direction: column;
-
-    background: linear-gradient(to right, black 85%, rgb(12, 12, 12) 100%);
 }
 
 /* --- SECTION CONTENU1 --- */
@@ -182,7 +168,7 @@ p{
     height: 15vh;
 }
 
-.contenu1 .flex-horiz h2{
+.contenu1 .flex-horiz-hist h2{
     max-width: none;
 
     font-size: 4vh;

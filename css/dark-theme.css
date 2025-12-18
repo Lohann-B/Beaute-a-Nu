@@ -2,11 +2,6 @@
     background: white;
 }
 
-body{
-    background: linear-gradient(to right,#3c3c3c, #282828);
-    color: #ffffff;
-}
-
 footer{
     font-family: "inter", medium;
     background-color: #282828;
@@ -72,3 +67,77 @@ li a{
 #NavBoutonMenu{
     background-image: url(../img/global/logo.svg);
 }
+
+/* --- Lohann --- */
+
+
+body{
+    background: url("../img/global/Fond_Black.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #ffffff;
+}
+
+p, h1, h2, h3, a {
+    color: white;
+}
+
+/* --- SECTION TITRE --- */
+.titre{
+    background:linear-gradient( to top, rgba(0, 0, 0, 0.95), rgba(51, 51, 51, 0.95));
+        box-shadow: 5px 5px 12px #ffffff42;
+}
+
+.titre h1{
+    color: white;
+    text-shadow: 0px 4px 15px #ffffff48;
+}
+
+/* --- SECTION HISTOIRE --- */
+#image1{
+    background-color: rgb(255, 255, 255);
+    border-top: 4px solid rgb(255, 255, 255);
+}
+
+.contenu1 {
+    border-top: solid 4px rgb(255, 255, 255);
+    border-bottom: solid 4px rgb(255, 255, 255);
+}
+
+.contenu1 p{
+    color: black;
+}
+
+.contenu1 a{
+    color: black;
+}
+
+.contenu1 figure{
+    background: linear-gradient(to right, rgba(199, 192, 192, 0.795) 60%, rgba(197, 161, 0, 0.911)) 100%;
+}
+
+footer{
+    border-top: solid 2px rgba(255, 255, 255, 0.247);
+}
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.753) 75%, rgba(190, 190, 190, 0.767) 100%);
+}
+
+/* ADAPTATION TELEPHONE */
+@media screen and (max-width: 640px){
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.733) 85%, rgba(190, 190, 190, 0.699) 100%);
+}
+    
+}
+
+/* --- SECTION HISTOIRE --- */
+.flex-vert{
+        background-color: rgba(26, 26, 26, 0.9);
+        box-shadow: 5px 5px 12px #ffffff46;
+}
+
