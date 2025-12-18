@@ -1,3 +1,5 @@
+<!-- Page Validée -->
+ 
 <!DOCTYPE HTML>
 <html lang="fr">
     <head>
@@ -8,48 +10,78 @@
         <meta name='viewport' content='width=device-width, initial-scale=1'>
         <link rel='stylesheet' type='text/css' media='screen' href='../css/global.css'>
         <link rel='stylesheet' type='text/css' media='screen' id="theme" href='../css/light-theme.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='../css/conseil.css'>
         <script src='../javascript/main.js'></script>    
     </head>
+
     <body>
-    <a id="hautDePage">haut de page</a>
-    <header>
-                <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
-                <figure class="FooterFlexFigure">
-                    <button title="changer de contraste" id="contraste"> ☾</button>
-                    <p title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</p>
-                </figure>
-    </header>
-    <nav id="navigationBar" role="menu" hidden>
-        <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
-        <ul>
-            <li><a href="../index.html">Accueil</a></li>
-            <li><a href="../html/histoire.html">Be Proud</a></li>
-            <li><a href="../html/conseils.html">Conseils</a></li>
-            <li><a href="../html/produit.html">Produits</a></li>
-            <li><a href="../html/collaborateurs.html">Nos collaborateurs</a></li>
-            <li><a href="../html/photo.html">Photos</a></li>
-            <li><a href="../html/a-propos-de-nous.html">A propos de nous</a></li>
-            <li><a href="../html/source.html">Legal</a></li>
-            <li><a href="../html/contact.html">Contact</a></li>
-        </ul> 
-    </nav>
-    
+        <!-- HEADER -->
+        <a id="hautDePage">haut de page</a>
+        <header>
+                    <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
+                    <figure class="FooterFlexFigure">
+                        <button title="changer de contraste" id="contraste"> ☾</button>
+                        <p title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</p>
+                    </figure>
+        </header>
+
+        <!-- BARRE DE NAVIGATION -->
+        <nav id="navigationBar" role="menu" hidden>
+            <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../html/histoire.html">Be Proud</a></li>
+                <li><a href="../html/conseils.html">Conseils</a></li>
+                <li><a href="../html/produit.html">Produits</a></li>
+                <li><a href="../html/collaborateurs.html">Nos collaborateurs</a></li>
+                <li><a href="../html/photo.html">Photos</a></li>
+                <li><a href="../html/a-propos-de-nous.html">A propos de nous</a></li>
+                <li><a href="../html/source.html">Legal</a></li>
+                <li><a href="../html/contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        
+        <!-- SECTION TITRE -->
+        <section class="titre">
             <h1>Nos conseils de chauve</h1>
-            <h2>Prendre soin de sa peau</h2>
-            <img src="../img/insérer une source connard">
-            <p>Entretenir le crâne : rasage propre, hydratation régulière → une tête nette, c’est la base.</p>
-            <h2>Conseil2</h2>
-            <img src="../img/insérer une source connard">
-            <p>Choisir de bons accessoires : lunettes, montres, chapeaux bien choisis.</p>
-            <h2>Conseil3</h2>
-            <img src="../img/insérer une source connard">
-            <p>Travailler la posture : dos droit, tête haute.</p>
-            <h2>Conseil4</h2>
-            <img src="../img/insérer une source connard">
-            <p>S’entourer de personnes bienveillantes : la vraie beauté, elle est là.</p>
-            <h2>Conseil5</h2>
-            <img src="../img/insérer une source connard">
-            <p>Jouer la carte de l’humour : c’est une armure sociale très efficace.</p>
+        </section>
+
+        <!-- SECTION CONTENU -->
+        <section class="contenu">
+            <flex-box class="flex-vert">
+                <flex-box>
+                    <h2>Potentiel sensoriel amélioré</h2>
+                    <p>En effet, un chauve sentira toujours la première goutte de pluie environ 30 secondes avant tout les autres.<br>
+                        Mais ce n'est pas la fonction première de cette propriété, 
+                        le corps humain évacue beaucoup de chaleur par la tête.<br> Sans l'isolation des cheveux, vous avez un <strong>système de refroidissement liquide ultra-performant !</strong>
+                        En été ou après le sport, <strong>un simple coup d'eau froide ou un brumisateur sur le crâne vous rafraîchit le corps entier instantanément.</strong>
+                    </p>
+                </flex-box>
+
+                <flex-box>
+                    <h2>Se proteger du froid</h2>
+                    <p>En revanche, l'hiver l'on peut rapidement attrapé froid sans l'isolation des cheveux.<br>
+                    Ainsi il est conseillé d'utiliser du <strong>layering</strong> pour se protéger la tête, le plus courant est le <strong>bonnet + buff.</strong><br>
+                    C'est un combo au sommet de la méta, il permet d'abord d'avoir une double couche de protection et si on a froid il permet aussi d'enlever le bonnet pour évacuer la transpiration en cas d'effort tout en gardant la protection du buff.</p>
+                </flex-box>
+
+                <flex-box>
+                    <h2>Éviter la sueur dans les yeux</h2>
+                    <p>Sans cheveux pour boire la transpiration, la sueur coule directement du haut du crâne dans les yeux. Ça brûle et c'est gênant.<br>
+                    Ainsi, s'offre a vous deux options : <strong>Porter un bandeau éponge ou passez un coup de stick anti-transpirant (ou de pierre d'alun) sur votre front</strong>, juste au niveau de l'ancienne ligne de cheveux, avant de sortir ou de faire du sport.<br>
+                    Ce stick vous permet ainsi de garder la tête libre tout en évitant la sueur génante</p>
+                </flex-box>
+
+                <flex-box>
+                    <h2>Rallonger la vie des lames de rasoir</h2>
+                    <p><strong>Raser une tête use les lames 3 fois plus vite</strong>que la barbe car la surface est plus grande et les cheveux du crâne sont durs. Ça coûte cher.<br>
+                    Avant ou après le rasage, prenez un vieux jean. <strong>Passez votre rasoir à sec sur la jambe du jean</strong>, dans le sens inverse du rasage (de bas en haut), 10 à 15 fois.<br>
+                    Le tissu denim agit comme le cuir des barbiers d'autrefois. Il ne "brosse" pas la lame, mais il redresse le fil du métal au niveau microscopique et nettoie les résidus. Vous doublerez la durée de vie de vos lames.</p>
+                </flex-box>
+
+            </flex-box>
+        </section>
+
         <footer>
             <p>Quel est notre objectif :</p>
             <ul>

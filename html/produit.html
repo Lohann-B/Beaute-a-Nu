@@ -16,7 +16,7 @@
 
     <body>
         <a id="hautDePage">haut de page</a>
-        <!-- HERDER -->
+        <!-- HEADER -->
         <header>
                     <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
                     <figure class="FooterFlexFigure">
@@ -24,6 +24,7 @@
                         <p title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</p>
                     </figure>
         </header>
+
         <nav id="navigationBar" role="menu" hidden>
         <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
         <ul>
@@ -39,14 +40,15 @@
         </ul> 
     </nav>
         <!-- FIN HEADER -->
-
-        <h1>Nos produits</h1>
-
+        <section class="titre">
+            <h1>Nos produits</h1>
+        </section>
+        
         <!-- SECTION BOLD CLUB-->
         <h2>Nos recommandations de la marque "Bold Club" : </h2>
 
         <section  class="bold-club">
-            <flex-box class="titre">
+            <flex-box class="titre2">
                 <h2>Skincare</h2>
             </flex-box>
 
@@ -80,7 +82,7 @@
                 </section>
             </flex-box>
 
-            <flex-box class="titre">
+            <flex-box class="titre2">
                 <h2>Deluxe</h2>
             </flex-box>
 
@@ -90,131 +92,96 @@
                 </figure>
                 <section>
                     <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
+                    <p>Goutez à l'huile d'amande Édition Shiny, une huile d'une pureté en édition limité en exclusivité pour nos adhérents Beauté à  Nu </p>
                 </section>
             </flex-box>
 
-            <flex-box class="flex-vert">
-                <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
-                </figure>
-                <section>
-                    <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
-                </section>
-            </flex-box>
-
-            <flex-box class="titre">
-                <h2>Pack Trio</h2>
-            </flex-box>
-
-            <flex-box class="flex-vert">
-                <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
-                </figure>
-                <section>
-                    <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
-                </section>
-            </flex-box>
-
-            <flex-box class="flex-vert">
-                <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
-                </figure>
-                <section>
-                    <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
-                </section>
-            </flex-box>
         </section>
         <!-- FIN BOLD CLUB -->
 
-        <!-- SECTION BOLD CLUB-->
-        <h2>Nos recommandations de la marque "Bold Club"</h2>
+        <!-- SECTION BNU -->
+        <h2>Nos produits "Beauté à Nu" : </h2>
 
         <section  class="bold-club">
-            <flex-box class="titre">
-                <h2>Skincare</h2>
+
+            <flex-box class="titre2">
+                <h2>Bonnet</h2>
             </flex-box>
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bc_creme.png">
+                    <img src="../img/produits/bonnet_beige.png">
                 </figure>
                 <section>
-                    <h3>La crème métifiante</h3>
-                    <p>Nous vous recommandons cette crème métifiante destinée aux visages produisant du sebum indésiré pour réguler cette production et limiter les brillances disgracieuses. Elle est aussi excellente pour garder sa peau bien hydratée.</p>
+                    <h3>Bonnet Beige BNU</h3>
+                    <p>Unn bonnet classique mais qui ravira votre crâne dans les moments les plus froids ... </p>
                 </section>
             </flex-box>
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bc_elixir.png">
+                    <img src="../img/produits/bonnet_noir.png">
                 </figure>
                 <section>
-                    <h3>L'Élixir d'amande</h3>
-                    <p>Cet élixir est un essentiel de la santé contre le vieillissement. Grâce à sa base naturel d'amande, elle fortifie et régénère le corps physique pour garder une peau neuve et en bonne santé.</p>
+                    <h3>Bonnet BNU</h3>
+                    <p>Le bonnet noir Beauté à Nu qui saura plaire à un large public</p>
                 </section>
             </flex-box>
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/Gel_nettoyant.png">
+                    <img src="../img/produits/bonnet_trans.png">
                 </figure>
                 <section>
-                    <h3>Le Gel nettotant Bold Club</h3>
-                    <p>aaaaaaaaaaaaaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aaaaaa aaa aaaaaaa aaa a a a aaaa a aaa aaaaaaaa aaa aa</p>
+                    <h3>Bonnet Transparent Spécial crâne dénudé BNU</h3>
+                    <p>Rester authentique grâce à notre nouvelle technologie innovante, exposer votre beauté avec style ! </p>
                 </section>
             </flex-box>
 
-            <flex-box class="titre">
-                <h2>Deluxe</h2>
+            <flex-box class="titre2">
+                <h2>Tatouage</h2>
             </flex-box>
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
+                    <img src="../img/produits/tatouage_1.png">
                 </figure>
                 <section>
-                    <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
-                </section>
-            </flex-box>
-
-            <flex-box class="flex-vert">
-                <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
-                </figure>
-                <section>
-                    <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
-                </section>
-            </flex-box>
-
-            <flex-box class="titre">
-                <h2>Pack Trio</h2>
-            </flex-box>
-
-            <flex-box class="flex-vert">
-                <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
-                </figure>
-                <section>
-                    <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
+                    <h3>Tatouage Code Barre Hitman Version BNU</h3>
+                    <p>Un tatouage cranien destiné à nos plus grand fidèle ... </p>
                 </section>
             </flex-box>
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
+                    <img src="../img/produits/tatouage_2.png">
                 </figure>
                 <section>
-                    <h3>L'Élixir d'amande Édition Shiny</h3>
-                    <p>Insérer decription</p>
+                    <h3>Live Bald Life Japan</h3>
+                    <p>Petit tatouage en japonais pour attirer une clientèle diversifiée : n'hésitez pas à kiffez votre life avec style !</p>
                 </section>
             </flex-box>
+
+            <flex-box class="flex-vert">
+                <figure>
+                    <img src="../img/produits/tatouage_3.png">
+                </figure>
+                <section>
+                    <h3>Chauve et dangereux</h3>
+                    <p>Un tatouage pour les plus féroces d'entre nous, il porte respect et honneur ...</p>
+                </section>
+            </flex-box>
+
+            <flex-box class="flex-vert">
+                <figure>
+                    <img src="../img/produits/tatouage_4.png">
+                </figure>
+                <section>
+                    <h3>Chauve et fier de l'être</h3>
+                    <p>Représenter notre communauté grâce à ce tatouage super stylé !</p>
+                </section>
+            </flex-box>
+
         </section>
         <!-- FIN BOLD CLUB -->
 
