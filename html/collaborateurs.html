@@ -7,12 +7,11 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='../css/global.css'>
     <link rel='stylesheet' type='text/css' media='screen' id="theme" href='../css/light-theme.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/collaborateur-pc.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/collaborateur-tab.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../css/collaborateur-tel.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../css/collaborateurs.css'>
     <script src='../javascript/main.js'></script>
 </head>
 <body>
+    <!--- HEADER --->
     <a id="hautDePage">haut de page</a>
     <header>
                 <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
@@ -21,6 +20,8 @@
                     <p title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</p>
                 </figure>
     </header>
+
+    <!--- BARRE DE NAVIGATION --->
     <nav id="navigationBar" role="menu" hidden>
         <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
         <ul>
@@ -35,48 +36,38 @@
             <li><a href="../html/contact.html">Contact</a></li>
         </ul> 
     </nav>
-    <h1 class="titre">
-        /Collaborateurs/
-    </h1>
-    <h1 class="t3">
-        Site internet de Bayeux Tristant, Seiller William et Cocosila Robert
-    </h1>
-    <h1 class="t2">
-        Présentation de leur site internet 
-    </h1>
-    <p class="text">
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-        aaaaaaaaaaaaaaaa
-    </p>
-    <h1 class="t2">
-        lien de leur site internet 
-    </h1>
-    <a href="https://robertcocosila0.github.io/Personal-website-project/" title="Lien d'un site d'un Collaborateurs" class="lien">Site internet de Bayeux Tristant, Seiller William et Cocosila Robert</a>
-    <br>
-    <br>
-    <figure>
-        <img src="../img/colla.png" alt="présentation-personne">
-        <figcaption>
-            Une page pour présenter les directeur du site 
-        </figcaption>
-    </figure>
-    <br>
-    <br>
-    <figure>
-        <img src="../img/colla2.png" alt="hub-du-site">
-        <figcaption>
-            Une page d'introduction de leur site 
-        </figcaption>
-    </figure>
-    <br>
-    <br>
-    <figure>
-        <img src="../img/colla3.png" alt="contact">
-        <figcaption>
-            Page de contact pour les contacter plus simplement 
-        </figcaption>
-    </figure>
+
+    <!--- SECTION TITRE --->
+    <section class="titre">
+        <h1>
+            Collaborateurs
+        </h1>
+    </section>
+
+    <!--- SECTION CONTENU --->
+    <section class="contenu">
+        <flex-box class="flex-vert">
+            <h2>
+                Site internet de Bayeux Tristant, Seiller William et Cocosila Robert
+            </h2>
+            <box>
+                <h3>
+                    Présentation de leur site internet 
+                </h3>
+
+                <p>
+                    Nous vous présentons le site internet de notre collaborateur Robert Cocosila,William Seiller et Tristan Bayeux , des étudiants en première année d’informatique à l’IUT d’Aix-en-Provence, conçu pour valoriser leurs profils, leurs compétences et faciliter leurs échanges professionnels.
+                </p>
+
+                <h3>
+                    Lien de leur site internet 
+                </h3>
+
+                <a href="https://robertcocosila0.github.io/Personal-website-project/" title="Lien d'un site d'un Collaborateurs" class="lien">Site internet de Bayeux Tristant, Seiller William et Cocosila Robert</a>
+                
+            </box>
+        </flex-box>
+    </section>
     
     <footer>
             <p>Quel est notre objectif :</p>
