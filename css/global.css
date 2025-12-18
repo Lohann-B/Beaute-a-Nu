@@ -1,7 +1,7 @@
 /* --- LILIAN --- */
 body{
   font-family: "Bacasime Antique", normal;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -182,7 +182,7 @@ html, body{
 }
 
 p{
-  font-size: 2vw;
+  font-size: 1.2vw;
 }
 
 h1{
