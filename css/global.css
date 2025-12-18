@@ -1,8 +1,4 @@
-html, body{
-  margin: 0;
-  padding: 0;
-}
-
+/* --- LILIAN --- */
 body{
   font-family: "Bacasime Antique", normal;
   font-weight: 400;
@@ -177,4 +173,18 @@ ul li{
     src: url('../fonts/BacasimeAntique-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
+}
+
+/* --- LOHANN --- */
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-size: larger;
+}
+
+h1{
+  text-align: center;
 }
