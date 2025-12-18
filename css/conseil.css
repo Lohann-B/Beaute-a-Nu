@@ -11,9 +11,6 @@ body{
     justify-content: flex-start;
     flex-direction: column;
 
-    background-color: rgba(185, 165, 101, 0.384);
-    box-shadow: 5px 5px 12px #00000069;
-
     margin: 0;
     padding: 4vh;
 
@@ -22,17 +19,18 @@ body{
 
 /* --- SECTION TITRE --- */
 .titre {
-    padding: 3vh 0;
+    padding: 4vh 0;
     padding-top: 8vh;
-
-    background: linear-gradient(to top, black, rgb(51, 51, 51));
 }
 
 .titre h1{
-    font-size: 8vh;
-    color: white;
-
     text-align: center;
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
 }
 
 /* --- SECTION CONTENU --- */

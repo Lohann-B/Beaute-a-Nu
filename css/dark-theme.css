@@ -2,11 +2,6 @@
     background: white;
 }
 
-body{
-    background: linear-gradient(to right,#3c3c3c, #282828);
-    color: #ffffff;
-}
-
 footer{
     font-family: "inter", medium;
     background-color: #282828;
@@ -71,4 +66,129 @@ li a{
 
 #NavBoutonMenu{
     background-image: url(../img/global/logo.svg);
+}
+
+/* --- Lohann --- */
+a{
+    color: #d40000;
+}
+
+a:visited{
+    color: #9c0000;
+}
+
+body{
+    background: url("../img/global/Fond_Black.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: #ffffff;
+}
+
+p, h1, h2, h3, a {
+    color: white;
+}
+
+/* --- SECTION TITRE --- */
+.titre{
+    background:linear-gradient( to top, rgba(0, 0, 0, 0.95), rgba(51, 51, 51, 0.95));
+    box-shadow: 5px 5px 12px #ffffff42;
+}
+
+.titre h1{
+    color: white;
+    text-shadow: 0px 4px 15px #ffffff48;
+}
+
+/* --- SECTION HISTOIRE --- */
+#image1{
+    background-color: rgb(255, 255, 255);
+    border-top: 4px solid rgb(255, 255, 255);
+}
+
+.contenu1 {
+    border-top: solid 4px rgb(255, 255, 255);
+    border-bottom: solid 4px rgb(255, 255, 255);
+}
+
+.contenu1 p{
+    color: black;
+}
+
+.contenu1 a{
+    color: black;
+}
+
+.contenu1 figure{
+    background: linear-gradient(to right, rgba(199, 192, 192, 0.795) 60%, rgba(197, 161, 0, 0.911)) 100%;
+}
+
+footer{
+    border-top: solid 2px rgba(255, 255, 255, 0.247);
+}
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.753) 75%, rgba(190, 190, 190, 0.767) 100%);
+}
+
+/* ADAPTATION TELEPHONE */
+@media screen and (max-width: 640px){
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.733) 85%, rgba(190, 190, 190, 0.699) 100%);
+}
+    
+}
+
+/* --- SECTION CONSEIL --- */
+.flex-vert{
+        background-color: rgba(26, 26, 26, 0.9);
+        box-shadow: 5px 5px 12px #ffffff46;
+}
+
+/* --- SECTION COLLABO --- */
+
+.contenu-c h2{
+    border-bottom: solid rgba(255, 255, 255, 0.842) 2px;
+}
+
+/* --- SECTION PHOTO --- */
+.titre-h{
+    background:linear-gradient( to top, rgb(0, 0, 0), rgb(51, 51, 51));
+    box-shadow: 5px 5px 12px #ffffff42;
+}
+
+.contenu-h figure{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.466), rgba(54, 44, 0, 0.486), rgba(0, 0, 0, 0.445));
+    box-shadow: 5px 5px 12px #000000a4;
+}
+
+.contenu-h figcaption{
+    background-color: #222;
+    color: white;
+}
+
+.contenu-h img{
+    background-color:#222;
+}
+
+.contenu-h .nom{
+    border-bottom: 2px rgba(255, 255, 255, 0.856) solid;
+}
+
+/* --- SECTION PROPOS --- */
+.flex-vert-p{
+    background-color: rgba(75, 75, 75, 0.384);
+    border: 2px solid rgba(255, 255, 255, 0.329);
+}
+
+.titre-p{
+    border-bottom: 7px rgba(255, 255, 255, 0.322) solid;
+    box-shadow: 5px 5px 12px #ffffff36;
+}
+
+.flex-vert-p flex-box{
+    background-color: #000000b2;
+    box-shadow: 3px 3px 8px #ffffff54;
 }
