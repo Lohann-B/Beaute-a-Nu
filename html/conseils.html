@@ -82,7 +82,7 @@
             </flex-box>
         </section>
 
-        <footer>
+         <footer>
             <p>Quel est notre objectif :</p>
             <ul>
                 <li>
@@ -114,12 +114,16 @@
                         ★
                     </label>
                 </figure>
+                <label for="email-feed-back">Votre e‑mail</label>
                 <input type="email" id="email-feed-back" name="email-address" placeholder="votreEmail@example.com">
-                <textarea name="feed-back" id="feed-back" placeholder="votre message"></textarea>
-                <button type="submit" id="submitButton">envoyer</button>
+
+                <label for="feed-back">Votre message</label>
+                <textarea name="feed-back" id="feed-back" required placeholder="votre message"></textarea>
+
+                <button type="submit" id="submitButton" onclick="submitForm(event)">envoyer</button>
             </fieldset>
-            <img alt="W3C Validation" src="https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Flohann-b.github.io%2FBeaute-a-Nu%2Fhtml%2Fconseils.html">
-            <h3>suivez nous sur nos réseaux !</h3>
+            <img id="validator" alt="W3C Validation" width="128" height="16" src="https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Flohann-b.github.io%2FBeaute-a-Nu%2Findex.html" >
+            <h2 class="mediaTitre">suivez nous sur nos réseaux !</h2>
             <a href="https://github.com/Lohann-B/Beaute-a-Nu" id="githubLink" class="iconSocialMedia">github</a>
             <a href="https://www.instagram.com/beautee.anu?igsh=MXI0djlrMmJnczFodQ==" id="igLink" class="iconSocialMedia">linkedin</a>
             <a href="https://www.linkedin.com/in/lowann-php-my-balbas-a757a539a/" id="linkedinLink" class="iconSocialMedia">instagram</a>
