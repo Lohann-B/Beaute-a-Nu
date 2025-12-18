@@ -87,13 +87,13 @@ body{
     color: #000000;
 }
 
-p, h1, h2, h3, a {
+p, h1, h2, h3{
     color: black;
 }
 
 /* --- SECTION TITRE --- */
 .titre{
-    background: linear-gradient(to top, #808062d2, #cacaa5c2);
+    background: linear-gradient(to top, rgba(189, 173, 121, 0.863), rgba(252, 234, 177, 0.863));
     box-shadow: 5px 5px 12px #00000069;
 }
 
@@ -191,4 +191,25 @@ footer{
 .flex-vert-p flex-box{
     background-color: #dfd7aab2;
     box-shadow: 3px 3px 8px #00000054;
+}
+
+/* --- SECTION SOURCES --- */
+.flex-horiz-s{
+    background-color: rgba(189, 173, 121, 0.90);
+    box-shadow: 5px 5px 12px #00000069;
+}
+
+/* --- SECTION CONTACT --- */
+.contenu .gauche{
+    box-shadow: 3px 3px 8px #00000054;
+    background-color: rgba(212, 205, 161, 0.87);
+}
+
+.contenu .droite{
+    box-shadow: 3px 3px 8px #00000054;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.case1, .case2 {
+    background-color: #f7f0ca;
 }

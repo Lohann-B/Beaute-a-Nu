@@ -66,6 +66,14 @@ body {
 }
 
 .contenu-h .nom{
+    margin: 1vh 0;
+    padding: 2vh;
+
+    text-align: center;
+
+    font: italic smaller sans-serif;
+    font-size: 2vh;
+    
     color: linear;
     font-size: 5vh;
     font-weight: 900;

@@ -43,16 +43,13 @@ h3{
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-
-    background-color: rgba(0, 0, 0, 0.123);
-    box-shadow: 3px 3px 8px #00000054;
     
     padding-bottom: 1em;
     padding-left: 1em;
     margin-bottom: 2em;
 }
 
-.flex-horiz{
+.flex-horiz-s{
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -68,7 +65,7 @@ h3{
 }
 
 /* --- TEXTE BLOC 1 --- */
-.flex-horiz .flex-vert {
+.flex-horiz-s .flex-vert {
     background-color: rgba(0, 0, 0, 0);
     box-shadow: none;
 }
