@@ -3,7 +3,11 @@
 }
 
 body{
-    background: linear-gradient(to right,#f5f5cd, #cfcfa1);
+    background: url("../img/global/Fond.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
     color: #000000;
 }
 
