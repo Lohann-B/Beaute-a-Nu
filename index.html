@@ -12,11 +12,12 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
+        <a id="hautDePage">haut de page</a>
         <header>
                     <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
                     <figure class="FooterFlexFigure">
                         <button title="changer de contraste" id="contraste"> ☾</button>
-                        <a title="retour en haut de la page" id="BNUlogo" href="#image1">BNU</a>
+                        <a title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</a>
                     </figure>
         </header>
         <nav id="navigationBar" role="menu" hidden>
