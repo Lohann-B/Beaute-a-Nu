@@ -177,3 +177,18 @@ footer{
     border-bottom: 2px rgba(255, 255, 255, 0.856) solid;
 }
 
+/* --- SECTION PROPOS --- */
+.flex-vert-p{
+    background-color: rgba(75, 75, 75, 0.384);
+    border: 2px solid rgba(255, 255, 255, 0.329);
+}
+
+.titre-p{
+    border-bottom: 7px rgba(255, 255, 255, 0.322) solid;
+    box-shadow: 5px 5px 12px #ffffff36;
+}
+
+.flex-vert-p flex-box{
+    background-color: #000000b2;
+    box-shadow: 3px 3px 8px #ffffff54;
+}
