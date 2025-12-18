@@ -72,4 +72,5 @@ function submitForm(event){
     const body = `De : ${email}\n\nNote: ${note}/5\n${message}`;
     const mailto = `mailto:${encodeURIComponent(to)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailto;
+    alert('Votre message est envoyé ! Merci beaucoup pour votre retour 😁!');
   };
