@@ -16,7 +16,7 @@
 
     <body>
         <a id="hautDePage">haut de page</a>
-        <!-- HERDER -->
+        <!-- HEADER -->
         <header>
                     <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
                     <figure class="FooterFlexFigure">
@@ -24,6 +24,7 @@
                         <p title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</p>
                     </figure>
         </header>
+
         <nav id="navigationBar" role="menu" hidden>
         <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
         <ul>
@@ -39,14 +40,15 @@
         </ul> 
     </nav>
         <!-- FIN HEADER -->
-
-        <h1>Nos produits</h1>
-
+        <section class="titre">
+            <h1>Nos produits</h1>
+        </section>
+        
         <!-- SECTION BOLD CLUB-->
         <h2>Nos recommandations de la marque "Bold Club" : </h2>
 
         <section  class="bold-club">
-            <flex-box class="titre">
+            <flex-box class="titre2">
                 <h2>Skincare</h2>
             </flex-box>
 
@@ -80,7 +82,7 @@
                 </section>
             </flex-box>
 
-            <flex-box class="titre">
+            <flex-box class="titre2">
                 <h2>Deluxe</h2>
             </flex-box>
 
@@ -102,7 +104,7 @@
 
         <section  class="bold-club">
 
-            <flex-box class="titre">
+            <flex-box class="titre2">
                 <h2>Bonnet</h2>
             </flex-box>
 
@@ -136,7 +138,7 @@
                 </section>
             </flex-box>
 
-            <flex-box class="titre">
+            <flex-box class="titre2">
                 <h2>Tatouage</h2>
             </flex-box>
 
