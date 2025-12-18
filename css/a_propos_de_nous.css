@@ -94,7 +94,7 @@ p{
     overflow: hidden;
 }
 
-.flex-vert box{
+.flex-vert flex-box{
     background-color: #dfd7aab2;
     box-shadow: 3px 3px 8px #00000054;
 

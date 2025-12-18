@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="description" content="Beauté à Nu – Découvrez des conseils bien-être, des histoires inspirantes et des produits pour assumer la calvitie avec fierté. Apprenez à vivre pleinement sans cheveux et à valoriser votre style unique.">
     <title>A propos de nous</title>
     <link rel="icon" href="../img/global/icon.png">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -14,49 +15,60 @@
 
 <body>
     <a id="hautDePage">haut de page</a>
-    <!--- HEADER --->
-    <header>
-                <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
-                <figure class="FooterFlexFigure">
-                    <button title="changer de contraste" id="contraste"> ☾</button>
-                    <p title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</p>
-                </figure>
-    </header>
-    <nav id="navigationBar" role="menu" hidden>
-        <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
-        <ul>
-            <li><a href="../index.html">Accueil</a></li>
-            <li><a href="../html/histoire.html">Be Proud</a></li>
-            <li><a href="../html/conseils.html">Conseils</a></li>
-            <li><a href="../html/produit.html">Produits</a></li>
-            <li><a href="../html/collaborateurs.html">Nos collaborateurs</a></li>
-            <li><a href="../html/photo.html">Photos</a></li>
-            <li><a href="../html/a-propos-de-nous.html">A propos de nous</a></li>
-            <li><a href="../html/source.html">Legal</a></li>
-            <li><a href="../html/contact.html">Contact</a></li>
-        </ul> 
-    </nav>
-
-    <!--- TITRE --->
+        <header>
+                    <button id="BoutonMenu" onclick="openCloseNavBar(event)">ouvrir Menu</button>
+                    <figure class="FooterFlexFigure">
+                        <button title="changer de contraste" id="contraste"> ☾</button>
+                        <a title="retour en haut de la page" id="BNUlogo" onclick="GotoHP(event)">BNU</a>
+                    </figure>
+        </header>
+        <nav id="navigationBar" role="menu" hidden>
+            <button id="NavBoutonMenu" onclick="openCloseNavBar(event)">fermer Menu</button>
+           <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./html/histoire.html">Be Proud</a></li>
+                <li><a href="./html/conseils.html">Conseils</a></li>
+                <li><a href="./html/produit.html">Produits</a></li>
+                <li><a href="./html/collaborateurs.html">Nos collaborateurs</a></li>
+                <li><a href="./html/photo.html">Photos</a></li>
+                <li><a href="./html/a-propos-de-nous.html">A propos de nous</a></li>
+                <li><a href="./html/source.html">Legal</a></li>
+                <li><a href="./html/contact.html">Contact</a></li>
+            </ul> 
+        </nav>
+        <main>
+    <!-- TITRE -->
     <section class="titre">
         <h1>
         À propos de nous
         </h1>
     </section>
 
-    <!--- CONTENU--->
+    <!-- CONTENU-->
     <flex-box class="flex-horiz">
         <flex-box class="flex-vert">
             <img src="../img/a-propos-de-nous/lohann_chauve.webp" alt="lohann mais chauve" class="image_chauve">
-            <p>
-                Un bel homme
-            </p>
-        
+            <flex-box>
+                <p> 
+                    <em>Une bête de travail</em>, mais il n'est pas seulement fort, il est extrêmement beau aussi.
+                    Et malgré son niveau parfois difficile en anglais, il reste <em>5ᵉ de la promo</em>.
+                    <br> Je sais ce que vous pensez : est-ce dû à son crâne chauve ? Évidemment ! Il incarne parfaitement la beauté à nu ! 
+                    Un Homme ? Non.<br> Un animal ? Non.<br>
+                </p>
+                <p>
+                     Comment vraiment le décrire ? C'est un homme perspicace qui sait réfléchir avec son crâne.
+                    On peut notamment le remarquer durant la journée, puisque sa chevelure inexistante permet de voir de la fumée en sortir.
+                    <br> Mais il sait aussi très bien dormir lors des cours magistraux les plus importants, notamment ceux de maths. 
+                    En fin de compte, que dire de plus ? Cet homme bourré de qualités a peut-être quelques petits défauts,
+                     mais en tout cas, sa calvitie n'en est pas un ! 
+                </p>
+                <p>Chevalier au cœur vaillant.</p>
+            </flex-box>
         </flex-box>
 
         <flex-box class="flex-vert">
             <img src="../img/a-propos-de-nous/Alexandre_chauve.webp" alt="Alexandre mais chauve" class="image_chauve">
-            <box>
+            <flex-box>
                 <p>
                     Je ne serais par où commencer pour décrire cet homme ...<br> 
                     Pour la faire courte, je dirais d'abord qu'il est manifestement beau.
@@ -74,12 +86,12 @@
                 </p>
 
                 <p>Grand Prince.</p>
-            </box>
+            </flex-box>
         </flex-box>
 
         <flex-box class="flex-vert">
             <img src="../img/a-propos-de-nous/lilian_chauve.webp" alt="lilian mais chauve" class="image_chauve">
-            <box>
+            <flex-box>
                 <p>
                     Lilian, une personne grave par son attitude et son charisme permanent.<br>
                     Travailleur et discipliné, la rigueur et la persévérance sont à leur paroxysme.<br>
@@ -94,11 +106,11 @@
                 <p>
                     Un roi en personne.
                 </p>
-            </box>
+            </flex-box>
         </flex-box>
     </flex-box>
-    
-    <!--- FOOTER --->
+    </main>
+    <!-- FOOTER -->
     <footer>
             <p>Quel est notre objectif :</p>
             <ul>
@@ -131,12 +143,16 @@
                         ★
                     </label>
                 </figure>
+                <label for="email-feed-back">Votre e‑mail</label>
                 <input type="email" id="email-feed-back" name="email-address" placeholder="votreEmail@example.com">
-                <textarea name="feed-back" id="feed-back" placeholder="votre message"></textarea>
-                <button type="submit" id="submitButton">envoyer</button>
+
+                <label for="feed-back">Votre message</label>
+                <textarea name="feed-back" id="feed-back" required placeholder="votre message"></textarea>
+
+                <button type="submit" id="submitButton" onclick="submitForm(event)">envoyer</button>
             </fieldset>
-            <img alt="W3C Validation" src="https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Flohann-b.github.io%2FBeaute-a-Nu%2Fhtml%2Fa-propos-de-nous.html">
-            <h3>suivez nous sur nos réseaux !</h3>
+            <img id="validator" alt="W3C Validation" src="https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Flohann-b.github.io%2FBeaute-a-Nu%2Findex.html" width="64px" height="36px">
+            <em>suivez nous sur nos réseaux !<em>
             <a href="https://github.com/Lohann-B/Beaute-a-Nu" id="githubLink" class="iconSocialMedia">github</a>
             <a href="https://www.instagram.com/beautee.anu?igsh=MXI0djlrMmJnczFodQ==" id="igLink" class="iconSocialMedia">linkedin</a>
             <a href="https://www.linkedin.com/in/lowann-php-my-balbas-a757a539a/" id="linkedinLink" class="iconSocialMedia">instagram</a>
