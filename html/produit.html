@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset='utf-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -54,7 +54,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bc_creme.png">
+                    <img src="../img/produits/bc_creme.png" alt="La crème métifiante">
                 </figure>
                 <section>
                     <h3>La crème métifiante</h3>
@@ -64,7 +64,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bc_elixir.png">
+                    <img src="../img/produits/bc_elixir.png" alt="L'Élixir d'amande">
                 </figure>
                 <section>
                     <h3>L'Élixir d'amande</h3>
@@ -74,7 +74,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/Gel_nettoyant.png">
+                    <img src="../img/produits/Gel_nettoyant.png" alt="Le Gel nettotant Bold Club">
                 </figure>
                 <section>
                     <h3>Le Gel nettotant Bold Club</h3>
@@ -88,7 +88,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bc_elex_shy.png">
+                    <img src="../img/produits/bc_elex_shy.png" alt="L'Élixir d'amande Édition Shiny">
                 </figure>
                 <section>
                     <h3>L'Élixir d'amande Édition Shiny</h3>
@@ -110,7 +110,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bonnet_beige.png">
+                    <img src="../img/produits/bonnet_beige.png" alt="Bonnet Beige BNU">
                 </figure>
                 <section>
                     <h3>Bonnet Beige BNU</h3>
@@ -120,7 +120,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bonnet_noir.png">
+                    <img src="../img/produits/bonnet_noir.png" alt="Bonnet BNU">
                 </figure>
                 <section>
                     <h3>Bonnet BNU</h3>
@@ -130,7 +130,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/bonnet_trans.png">
+                    <img src="../img/produits/bonnet_trans.png" alt="Bonnet Transparent Spécial crâne dénudé BNU">
                 </figure>
                 <section>
                     <h3>Bonnet Transparent Spécial crâne dénudé BNU</h3>
@@ -144,7 +144,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/tatouage_1.png">
+                    <img src="../img/produits/tatouage_1.png" alt="Tatouage Code Barre Hitman Version BNU">
                 </figure>
                 <section>
                     <h3>Tatouage Code Barre Hitman Version BNU</h3>
@@ -154,7 +154,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/tatouage_2.png">
+                    <img src="../img/produits/tatouage_2.png" alt="tatouage Live Bald Life Japan">
                 </figure>
                 <section>
                     <h3>Live Bald Life Japan</h3>
@@ -164,7 +164,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/tatouage_3.png">
+                    <img src="../img/produits/tatouage_3.png" alt="tatouage Chauve et dangereux">
                 </figure>
                 <section>
                     <h3>Chauve et dangereux</h3>
@@ -174,7 +174,7 @@
 
             <flex-box class="flex-vert">
                 <figure>
-                    <img src="../img/produits/tatouage_4.png">
+                    <img src="../img/produits/tatouage_4.png" alt="tatouage Chauve et fier de l'être">
                 </figure>
                 <section>
                     <h3>Chauve et fier de l'être</h3>
@@ -186,7 +186,7 @@
         <!-- FIN BOLD CLUB -->
 
         <!-- FOOTER -->
-        <footer>
+         <footer>
             <p>Quel est notre objectif :</p>
             <ul>
                 <li>
@@ -218,12 +218,16 @@
                         ★
                     </label>
                 </figure>
+                <label for="email-feed-back">Votre e‑mail</label>
                 <input type="email" id="email-feed-back" name="email-address" placeholder="votreEmail@example.com">
-                <textarea name="feed-back" id="feed-back" placeholder="votre message"></textarea>
-                <button type="submit" id="submitButton">envoyer</button>
+
+                <label for="feed-back">Votre message</label>
+                <textarea name="feed-back" id="feed-back" required placeholder="votre message"></textarea>
+
+                <button type="submit" id="submitButton" onclick="submitForm(event)">envoyer</button>
             </fieldset>
-            <img alt="W3C Validation" src="https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Flohann-b.github.io%2FBeaute-a-Nu%2Fhtml%2Fproduit.html">
-            <h3>suivez nous sur nos réseaux !</h3>
+            <img id="validator" alt="W3C Validation" width="128" height="16" src="https://img.shields.io/w3c-validation/default?targetUrl=https%3A%2F%2Flohann-b.github.io%2FBeaute-a-Nu%2Findex.html" >
+            <h2 class="mediaTitre">suivez nous sur nos réseaux !</h2>
             <a href="https://github.com/Lohann-B/Beaute-a-Nu" id="githubLink" class="iconSocialMedia">github</a>
             <a href="https://www.instagram.com/beautee.anu?igsh=MXI0djlrMmJnczFodQ==" id="igLink" class="iconSocialMedia">linkedin</a>
             <a href="https://www.linkedin.com/in/lowann-php-my-balbas-a757a539a/" id="linkedinLink" class="iconSocialMedia">instagram</a>
