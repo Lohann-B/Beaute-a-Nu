@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* --- SECTION TITRE --- */
+.titre-h {
+    padding: 4vh 0;
+    padding-top: 8vh;
+}
+
+.titre-h h1{
+    text-align: center;
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
+}
+
+/* --- SECTION CONTENU --- */
+.contenu-h{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 8vh 0;
+
+    position: relative;
+}
+
+.contenu-h::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+
+    background: url("../img/photo/fond_hallofshine.jpg");
+    background-size: cover;
+    filter: brightness(0.6);
+
+}
+
+.contenu-h figure{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+
+    padding: 2vh;
+
+    width: 45%;
+}
+
+.contenu-h figcaption {
+    margin: 1vh 0;
+    padding: 2vh;
+
+    text-align: center;
+
+    font: italic smaller sans-serif;
+    font-size: 2vh;
+}
+
+.contenu-h .nom{
+    margin: 1vh 0;
+    padding: 2vh;
+
+    text-align: center;
+
+    font: italic smaller sans-serif;
+    font-size: 2vh;
+    
+    color: linear;
+    font-size: 5vh;
+    font-weight: 900;
+
+    background: -webkit-linear-gradient(#fff200, #ffc300);
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contenu-h img{
+    margin-bottom: 2vh;
+    padding: 2vh;
+
+    width: cover;
+}
+

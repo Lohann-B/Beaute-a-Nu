@@ -1,0 +1,65 @@
+/* Page Validée */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* --- GENERAL CLASS --- */
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    width: 80%;
+}
+
+/* --- SECTION TITRE --- */
+.titre {
+    padding: 4vh 0;
+    padding-top: 8vh;
+}
+
+.titre h1{
+    text-align: center;
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
+}
+
+/* --- SECTION CONTENU --- */
+.contenu-c{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 5vh 0;
+}
+
+.contenu-c h2{
+    padding: 0 5vh;
+    padding-bottom: 1vh;
+    font-size: 3.5vh;
+    font-weight: 900;
+}
+
+.contenu-c h3{
+    font-size: 3vh;
+}
+
+.contenu-c p{
+    font-size: large;
+}
+
+.contenu-c flex-box{
+    margin: 0 2vh;
+    margin-bottom: 3vh;
+}
+

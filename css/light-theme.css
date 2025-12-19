@@ -1,4 +1,214 @@
-body{
-    background: linear-gradient(to right,#f5f5cd, #b8b884);
+#logo{
+    background: white;
+}
+
+footer{
+    font-family: "inter", medium;
+    background-color: rgb(240, 240, 240);
     color: #000000;
+    margin-left: -0.5em;
+    margin-bottom: -1em;
+    padding: 2em;
+    left: 0;
+}
+#contraste{
+   color:#dcdcfb; 
+}
+
+#messageBox{
+  background-color: #ffffff;
+  border-color: lightgray;
+}
+
+textarea{
+  color: #838383;
+  border-radius: 16px;
+  border-color: white;
+  padding-right: 50%;
+  padding-bottom: 10%;
+}
+
+#email-feed-back{
+  color: #000000d1;
+  border-color: white;
+}
+
+#submitButton{
+    margin-top: 10px;
+    color: #000000;
+    background-color: #00000020;
+    border-radius: 16px;
+    border-color: #0000003f;
+    width: 30%;
+}
+
+li a{
+    color: #000000d5;
+    font-size: 160%;
+}
+
+#githubLink{
+    background-image: url(../img/global/github-mark.svg);
+}
+
+#igLink{
+    background-image: url(../img/global/Instagram_Glyph_Black.svg);
+}
+
+#linkedinLink{
+    background-image: url(../img/global/InBug-Black.png);
+}
+
+#navigationBar{
+    background-color: white;
+}
+
+#NavBoutonMenu{
+    background-image: url(../img/global/logo-Black.svg);
+}
+
+/* --- LOHANN --- */
+a{
+    color: #0E8500;
+}
+
+a:visited{
+    color: #556E00;
+}
+
+body{
+    background: linear-gradient(to right, #f5f5cd, #cfcfa1);
+    
+    background: url("../img/global/Fond.webp");
+    background-size: cover;
+    background-attachment: fixed;
+    
+    color: #000000;
+}
+
+p, h1, h2, h3{
+    color: black;
+}
+
+/* --- SECTION TITRE --- */
+.titre{
+    background: linear-gradient(to top, rgba(189, 173, 121, 0.863), rgba(252, 234, 177, 0.863));
+    box-shadow: 5px 5px 12px #00000069;
+}
+
+.titre h1{
+    color: #000000;
+    text-shadow: 0px 4px 15px #00000048;
+}
+
+/* --- SECTION HISTOIRE --- */
+#image1{
+    background-color: rgb(0, 0, 0);
+    border-top: 4px solid black;
+}
+
+.contenu1 {
+    border: solid 4px black;
+}
+
+.contenu1 p{
+    color: white;
+}
+
+.contenu1 a{
+    color: white;
+}
+
+.contenu1 figure{
+    background: linear-gradient(to right, rgb(29, 28, 28) 60%, rgb(107, 88, 1)) 100%;
+}
+
+footer{
+    border-top: solid 2px rgba(0, 0, 0, 0.247);
+}
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, black 75%, rgb(27, 27, 27) 100%);
+}
+
+/* ADAPTATION TELEPHONE */
+@media screen and (max-width: 640px){
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, black 85%, rgb(12, 12, 12) 100%);
+}
+    
+}
+
+/* --- SECTION CONSEIL --- */
+.flex-vert{
+        background-color: rgba(189, 173, 121, 0.90);
+        box-shadow: 5px 5px 12px #00000069;
+}
+
+/* --- SECTION COLLABO --- */
+
+.contenu-c h2{
+    border-bottom: solid rgba(0, 0, 0, 0.856) 2px;
+}
+
+/* --- SECTION PHOTO --- */
+.titre-h{
+    background: linear-gradient(to top, #eeeeee, #999999);
+    box-shadow: 5px 5px 12px #00000069;
+}
+
+.contenu-h figure{
+    background: linear-gradient(to right, rgba(199, 199, 199, 0.466), rgba(255, 208, 0, 0.418), rgba(212, 212, 212, 0.445));
+    box-shadow: 5px 5px 12px #000000a4;
+}
+
+.contenu-h figcaption{
+    background-color: #dadadadc;
+    color: rgb(0, 0, 0);
+}
+
+.contenu-h img{
+    background-color:#dadadadc;
+}
+
+.contenu-h .nom{
+    border-bottom: 2px rgba(0, 0, 0, 0.856) solid;
+}
+
+/* --- SECTION PROPOS --- */
+.flex-vert-p{
+    background-color: rgba(185, 165, 101, 0.384);
+        border: 2px solid rgba(0, 0, 0, 0.329);
+}
+
+.titre-p{
+    border-bottom: 7px rgba(180, 140, 65, 0.322) solid;
+    box-shadow: 5px 5px 12px #00000069;
+}
+
+.flex-vert-p flex-box{
+    background-color: #dfd7aab2;
+    box-shadow: 3px 3px 8px #00000054;
+}
+
+/* --- SECTION SOURCES --- */
+.flex-horiz-s{
+    background-color: rgba(189, 173, 121, 0.90);
+    box-shadow: 5px 5px 12px #00000069;
+}
+
+/* --- SECTION CONTACT --- */
+.contenu .gauche{
+    box-shadow: 3px 3px 8px #00000054;
+    background-color: rgba(212, 205, 161, 0.87);
+}
+
+.contenu .droite{
+    box-shadow: 3px 3px 8px #00000054;
+    background-color: rgba(0, 0, 0, 0.137);
+}
+
+.case1, .case2 {
+    background-color: #f7f0ca;
 }

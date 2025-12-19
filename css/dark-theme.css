@@ -1,15 +1,5 @@
-body{
-    background-color: #404040;
-    color: #000000;
-}
-
 #logo{
     background: white;
-}
-
-body{
-    background: linear-gradient(to right,#3c3c3c, #282828);
-    color: #ffffff;
 }
 
 footer{
@@ -17,31 +7,17 @@ footer{
     background-color: #282828;
     color: #ffffff;
     margin-left: -0.5em;
-    margin-right: -0.5em;
     margin-bottom: -1em;
     padding: 2em;
-    position: flex;
     left: 0;
 }
 
-#footer{
-    padding: 0;
-    line-height: 145%;
-}
-li a{
-    color: #00000055;
+#contraste{
+    color: #ffd700;
 }
 
-#messageBox{
-  border-style:solid;
-  background-color: 282828;
-  border-radius: 16px;
-  border-width: 5px;
-  border-color: #e5e5e53e;
-  display: flex;
-  flex-direction: column;
-  justify-content:left;
-  margin: 20% 50% 20% 0%;
+li a{
+    color: #00000055;
 }
 
 textarea{
@@ -54,11 +30,7 @@ textarea{
 
 #email-feed-back{
   color: #ffffffd1;
-  border-radius: 16px;
-  border-style: solid;
   border-color: #282828;
-  padding-right: 50%;
-  margin-bottom: 10px;
 }
 
 
@@ -74,4 +46,169 @@ textarea{
 li a{
     color: #ffffffd5;
     font-size: 160%;
+}
+
+#githubLink{
+    background-image: url(../img/global/github-mark-white.svg);
+}
+
+#igLink{
+    background-image: url(../img/global/Instagram_Glyph_White.svg);
+}
+
+#linkedinLink{
+    background-image: url(../img/global/InBug-White.png);
+}
+
+#navigationBar{
+    background-color: #282828;
+}
+
+#NavBoutonMenu{
+    background-image: url(../img/global/logo.svg);
+}
+
+/* --- Lohann --- */
+a{
+    color: #d40000;
+}
+
+a:visited{
+    color: #9c0000;
+}
+
+body{
+    background: url("../img/global/Fond_Black.png");
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: #ffffff;
+}
+
+p, h1, h2, h3{
+    color: white;
+}
+
+/* --- SECTION TITRE --- */
+.titre{
+    background:linear-gradient( to top, rgba(0, 0, 0, 0.95), rgba(51, 51, 51, 0.95));
+    box-shadow: 5px 5px 12px #ffffff42;
+}
+
+.titre h1{
+    color: white;
+    text-shadow: 0px 4px 15px #ffffff48;
+}
+
+/* --- SECTION HISTOIRE --- */
+#image1{
+    background-color: rgb(255, 255, 255);
+    border-top: 4px solid rgb(255, 255, 255);
+}
+
+.contenu1 {
+    border-top: solid 4px rgb(255, 255, 255);
+    border-bottom: solid 4px rgb(255, 255, 255);
+}
+
+.contenu1 p{
+    color: black;
+}
+
+.contenu1 a{
+    color: black;
+}
+
+.contenu1 figure{
+    background: linear-gradient(to right, rgba(199, 192, 192, 0.795) 60%, rgba(197, 161, 0, 0.911)) 100%;
+}
+
+footer{
+    border-top: solid 2px rgba(255, 255, 255, 0.247);
+}
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.753) 75%, rgba(190, 190, 190, 0.767) 100%);
+}
+
+/* ADAPTATION TELEPHONE */
+@media screen and (max-width: 640px){
+
+.flex-horiz-hist{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.733) 85%, rgba(190, 190, 190, 0.699) 100%);
+}
+    
+}
+
+/* --- SECTION CONSEIL --- */
+.flex-vert{
+        background-color: rgba(26, 26, 26, 0.9);
+        box-shadow: 5px 5px 12px #ffffff46;
+}
+
+/* --- SECTION COLLABO --- */
+
+.contenu-c h2{
+    border-bottom: solid rgba(255, 255, 255, 0.842) 2px;
+}
+
+/* --- SECTION PHOTO --- */
+.titre-h{
+    background:linear-gradient( to top, rgb(0, 0, 0), rgb(51, 51, 51));
+    box-shadow: 5px 5px 12px #ffffff42;
+}
+
+.contenu-h figure{
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.466), rgba(54, 44, 0, 0.486), rgba(0, 0, 0, 0.445));
+    box-shadow: 5px 5px 12px #000000a4;
+}
+
+.contenu-h figcaption{
+    background-color: #222;
+    color: white;
+}
+
+.contenu-h img{
+    background-color:#222;
+}
+
+.contenu-h .nom{
+    border-bottom: 2px rgba(255, 255, 255, 0.856) solid;
+}
+
+/* --- SECTION PROPOS --- */
+.flex-vert-p{
+    background-color: rgba(75, 75, 75, 0.384);
+    border: 2px solid rgba(255, 255, 255, 0.329);
+}
+
+.titre-p{
+    border-bottom: 7px rgba(255, 255, 255, 0.322) solid;
+    box-shadow: 5px 5px 12px #ffffff36;
+}
+
+.flex-vert-p flex-box{
+    background-color: #000000b2;
+    box-shadow: 3px 3px 8px #ffffff54;
+}
+
+/* --- SECTION SOURCES --- */
+.flex-horiz-s{
+    background-color: rgba(26, 26, 26, 0.9);
+    box-shadow: 5px 5px 12px #ffffff46;
+}
+
+/* --- SECTION CONTACT --- */
+.contenu .gauche{
+    box-shadow: 3px 3px 8px #ffffff54;
+    background-color: rgba(46, 46, 46, 0.87);
+}
+
+.contenu .droite{
+    box-shadow: 3px 3px 8px #353535ab;
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.case1, .case2 {
+    background-color: #ffffff41;
 }

@@ -1,0 +1,103 @@
+body{
+    background: url(../img/global/UnChauveDeDos.png) left;
+    margin: 0em 1em;
+    padding: 0;
+}
+
+/* --- TITRE --- */
+.titre {
+    padding: 4vh 0;
+    padding-top: 8vh;
+    margin-bottom: 5vh;
+
+    background: linear-gradient(to top, black, rgb(51, 51, 51));
+    box-shadow: 5px 5px 12px #00000069;
+
+
+}
+
+.titre h1{
+    text-align: center;
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: white;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
+    text-shadow: 0px 4px 15px #ffffff48;
+}
+
+h2{
+    font-size: 1.9em;
+    margin-bottom: -0.2em;
+}
+
+h3{
+    margin-bottom: -0.5em;
+}
+
+
+/* --- BLOC --- */
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    padding-bottom: 1em;
+    padding-left: 1em;
+    margin-bottom: 2em;
+}
+
+.flex-horiz-s{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    column-gap: 5em;
+
+
+    background-color: rgba(0, 0, 0, 0.123);
+    box-shadow: 3px 3px 8px #00000054;
+
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+/* --- TEXTE BLOC 1 --- */
+.flex-horiz-s .flex-vert {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+/* --- IMAGE --- */
+img{
+    width: cover;
+    box-shadow: 3px 3px 8px #00000054;
+    overflow-x: scroll;
+}
+
+/* --- LIENS --- global */
+a{
+    color: #0E8500;
+}
+
+a:visited{
+    color: #556E00;
+}
+
+/* --- FOOTER --- */ 
+
+footer{
+    padding: 2em 0em;
+}
+
+/* --- FIN FOOTER --- */
+
+@media screen and (max-width: 640px){
+
+h1{
+    margin: 10%;
+    margin-top: 25%;
+}
+}
