@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    padding : 3vh;
+
+    line-height: 170%;
+}
+
+.signature{
+    width: 6%;
+    
+    margin: 1vh 3vh;
+    margin-bottom: 5vh;
+    padding: 2vh 4vh;
+
+    background-color: rgb(187, 187, 187);
+
+    border-radius: 2vh;
+}
+
+/* --- GENERAL CLASS --- */
+
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: inherit;
+
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+.flex-horiz-hist{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    overflow-x: hidden;
+    column-gap: 0vh;
+
+    padding: 0;
+    margin: 0;
+
+    box-shadow: 5px 5px 12px #00000069; 
+}
+
+/* --- SECTION TITRE --- */
+.titre {
+    padding: 4vh 0;
+    padding-top: 8vh;
+}
+
+.titre h1{
+    text-align: center;
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
+}
+
+#image1 {
+    margin:0;
+    padding: 0;
+
+    
+    filter: brightness(0.75);
+    box-shadow: 5px 5px 12px #00000069; 
+}
+
+#femme_chauve{
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+    object-position: center 30%;
+}
+
+/* --- SECTION CONTENU1 --- */
+
+/* Gauche */
+.contenu1 .flex-horiz-hist h2{
+    margin: 2vh;
+    max-width: 35%;
+
+    letter-spacing: 2px;
+    color: white;
+    font-weight: 900;
+    text-align: left;
+    font-size: 7vh;
+}
+
+.contenu1 .flex-horiz-hist section{
+    width: 40%;
+    background: url("../img/histoire/homme_chauve_rouge.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    box-shadow: 6px 0px 15px rgba(0, 0, 0, 0.459);
+}
+
+/* Droite */
+.contenu1 figure{
+    margin-left: 20%;
+    padding: 5% 0;
+
+    width: 100%;
+    box-shadow: -4px 4px 10px rgba(0, 0, 0, 0.329);
+}
+
+.contenu1 p{
+    padding: 6% 17%;
+    padding-bottom: 2%;
+    
+    text-align: center;
+    line-height: 200%;   
+}
+
+
+
+.contenu1 a{
+    font-size: 3.5vh;
+    text-decoration: none;
+    font-weight: bolder;
+
+    margin-left: 2%;
+}
+
+.contenu1 .etoile .signature{
+    width: 4vh;
+    margin-left: 10%;
+}
+
+/* --- ADAPTATION TELEPHONE --- */
+@media screen and (max-width: 640px){
+
+p{
+    padding : 3vh;
+
+    font-size: medium;
+    line-height: 170%;
+}
+
+.signature{
+    width: 25%;
+}
+
+.flex-horiz-hist{
+    flex-direction: column;
+}
+
+/* --- SECTION CONTENU1 --- */
+
+.contenu1 .flex-horiz-hist section{
+    width: 100%;
+    
+    border-bottom: 4px black solid;
+
+    background: url("../img/histoire/homme_chauve_rouge.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 18%;
+
+    height: 15vh;
+}
+
+.contenu1 .flex-horiz-hist h2{
+    max-width: none;
+
+    font-size: 4vh;
+    text-align: center;
+}
+
+.flex-vert {
+    width: 100%;
+}
+
+.contenu1 p{
+    padding: 6% 10%;
+    text-align: left;
+}
+
+.contenu1 strong{
+    font-size: 2.5vh;
+}
+
+.contenu1 .etoile{
+    width: 2.5vh;
+    margin-left: 5%;
+}
+
+.contenu1 figure{
+    background: linear-gradient(to right, rgb(29, 28, 28) 60%, rgb(107, 88, 1)) 100%;
+
+    margin: 2vh;
+    padding: 5% 0;
+
+    width: 100%;
+}
+
+}

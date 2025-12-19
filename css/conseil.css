@@ -1,0 +1,80 @@
+/* Page Validée */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* --- GENERAL CLASS --- */
+.flex-vert{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 4vh;
+
+    width: 80%;
+}
+
+/* --- SECTION TITRE --- */
+.titre {
+    padding: 4vh 0;
+    padding-top: 8vh;
+}
+
+.titre h1{
+    text-align: center;
+
+    font-size: 7vh;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Inter' , normal;
+    font-weight: 900;
+}
+
+/* --- SECTION CONTENU --- */
+.contenu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 5vh 0;
+
+    color: black;
+}
+
+.contenu h2{
+    padding: 1vh 5vh;
+    font-size: 3.5vh;
+    font-weight: 900;
+
+    background-color: rgba(255, 255, 255, 0.13);
+    border-bottom: rgba(0, 0, 0, 0.219) 2px solid;
+    box-shadow: -5px 5px 12px #00000013;
+}
+
+.contenu p{
+    font-size: large;
+    
+    margin-left: 1vh;
+    padding-left: 2vh;
+
+    border-left: rgba(0, 0, 0, 0.219) 2px solid;
+}
+
+/* --- ADAPTATION TELEPHONE --- */
+@media screen and (max-width: 640px){
+    
+.contenu{
+    margin: 0;
+    padding-bottom: 10%;
+    overflow: hidden;
+}
+
+.flex-vert{
+    width: 90%;
+}
+
+}
+
